@@ -1,0 +1,8 @@
+[build]
+  publish = "templates/driving-school-v1/public"
+  command = "echo 'No build step needed - static site'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
