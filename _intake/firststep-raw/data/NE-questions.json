@@ -1,0 +1,188 @@
+{
+  "state": "Nebraska",
+  "stateCode": "NE",
+  "generatedAt": "2026-01-03T00:54:28.552Z",
+  "totalQuestions": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Warning",
+        "Do not enter"
+      ],
+      "correctAnswer": "Warning",
+      "explanation": "A yellow diamond-shaped sign is used to warn drivers about upcoming road conditions and hazards."
+    },
+    {
+      "id": 2,
+      "question": "The 'Slippery When Wet' sign is what shape and color?",
+      "options": [
+        "Yellow diamond",
+        "Red octagon",
+        "Blue rectangle",
+        "Green square"
+      ],
+      "correctAnswer": "Yellow diamond",
+      "explanation": "Warning signs like the 'Slippery When Wet' sign are usually yellow and diamond-shaped."
+    },
+    {
+      "id": 3,
+      "question": "What does a red circle with a slash through it mean?",
+      "options": [
+        "The action is mandatory",
+        "The action is prohibited",
+        "The action is recommended",
+        "The action is optional"
+      ],
+      "correctAnswer": "The action is prohibited",
+      "explanation": "A red circle with a slash through it always means the action is prohibited."
+    },
+    {
+      "id": 4,
+      "question": "What does a green traffic light indicate?",
+      "options": [
+        "Stop",
+        "Slow down",
+        "Go",
+        "Prepare to stop"
+      ],
+      "correctAnswer": "Go",
+      "explanation": "A green light signals that you may proceed if the intersection is clear."
+    },
+    {
+      "id": 5,
+      "question": "What does a flashing red traffic light mean?",
+      "options": [
+        "Proceed with caution",
+        "Stop and yield the right-of-way before proceeding",
+        "Speed up",
+        "The traffic light is out of order"
+      ],
+      "correctAnswer": "Stop and yield the right-of-way before proceeding",
+      "explanation": "A flashing red light is treated the same as a stop sign. It means stop and then proceed when it is safe to do so."
+    },
+    {
+      "id": 6,
+      "question": "When two vehicles arrive at an intersection at the same time, who has the right of way?",
+      "options": [
+        "The driver on the left",
+        "The driver on the right",
+        "The driver who is driving faster",
+        "Whichever driver is driving a larger vehicle"
+      ],
+      "correctAnswer": "The driver on the right",
+      "explanation": "At an intersection where there is no stop sign or traffic signal, drivers must yield to vehicles coming from the right."
+    },
+    {
+      "id": 7,
+      "question": "When merging onto a freeway, who has the right of way?",
+      "options": [
+        "The merging vehicle",
+        "The vehicles already on the freeway",
+        "Whichever vehicle is faster",
+        "Whichever vehicle is larger"
+      ],
+      "correctAnswer": "The vehicles already on the freeway",
+      "explanation": "When merging onto a freeway, you must yield to the traffic already on the freeway."
+    },
+    {
+      "id": 8,
+      "question": "When is it legal to overtake another vehicle?",
+      "options": [
+        "When you are in an intersection",
+        "When you are on a hill or curve",
+        "When the vehicle is at a railroad crossing",
+        "When your lane is clear and it's safe to do so"
+      ],
+      "correctAnswer": "When your lane is clear and it's safe to do so",
+      "explanation": "It's only legal to overtake another vehicle when your lane is clear ahead and it's safe to do so."
+    },
+    {
+      "id": 9,
+      "question": "What is the speed limit in a residential area, unless otherwise posted?",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit in a residential area is typically 25 mph unless otherwise posted."
+    },
+    {
+      "id": 10,
+      "question": "When you see a school bus with its red lights flashing, what should you do?",
+      "options": [
+        "Pass the bus slowly",
+        "Stop",
+        "Speed up to pass the bus",
+        "Honk your horn"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "When a school bus has its red lights flashing, drivers in both directions must stop until the lights stop flashing."
+    },
+    {
+      "id": 11,
+      "question": "Where is it illegal to park?",
+      "options": [
+        "In a crosswalk",
+        "In front of a private driveway",
+        "Within 15 feet of a fire hydrant",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "It is illegal to park in all of these places."
+    },
+    {
+      "id": 12,
+      "question": "When parking uphill with a curb, which way should your wheels be turned?",
+      "options": [
+        "To the right",
+        "To the left",
+        "Straight",
+        "Either to the left or right"
+      ],
+      "correctAnswer": "To the left",
+      "explanation": "When parking uphill with a curb, your wheels should be turned to the left (away from the curb)."
+    },
+    {
+      "id": 13,
+      "question": "What should you do if your vehicle starts to skid on a wet road?",
+      "options": [
+        "Brake hard",
+        "Steer in the direction you want to go",
+        "Accelerate",
+        "Steer in the opposite direction of the skid"
+      ],
+      "correctAnswer": "Steer in the direction you want to go",
+      "explanation": "If your vehicle starts to skid, stay calm and steer in the direction you want to go. Don't brake hard or jerk the wheel."
+    },
+    {
+      "id": 14,
+      "question": "When should you use your high beam headlights?",
+      "options": [
+        "When driving in fog",
+        "When there are oncoming vehicles",
+        "When driving on well-lit roads",
+        "When driving in rural areas and no other vehicles are around"
+      ],
+      "correctAnswer": "When driving in rural areas and no other vehicles are around",
+      "explanation": "High beams should be used in rural areas or on dark city streets when no other cars are around. They must be dimmed when other vehicles are within 500 feet."
+    },
+    {
+      "id": 15,
+      "question": "What should you do if your vehicle's gas pedal sticks and you cannot pull it up manually?",
+      "options": [
+        "Turn off the ignition",
+        "Shift into neutral and use the brakes to slow your vehicle",
+        "Apply the emergency brake",
+        "Speed up and look for a place to crash"
+      ],
+      "correctAnswer": "Shift into neutral and use the brakes to slow your vehicle",
+      "explanation": "If your gas pedal sticks, shift into neutral and use the brakes to slow your vehicle. Turning off the ignition or applying the emergency brake could result in loss of control."
+    }
+  ]
+}

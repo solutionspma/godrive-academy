@@ -1,0 +1,128 @@
+{
+  "state": "Montana",
+  "stateCode": "MT",
+  "generatedAt": "2026-01-03T00:53:52.852Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic light signal mean?",
+      "options": [
+        "Go",
+        "Stop",
+        "Yield",
+        "Caution"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red light means that you must come to a complete stop at the stop line."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop",
+        "No entry",
+        "Warning or caution",
+        "School zone"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond signs are used to warn drivers about upcoming road conditions and hazards."
+    },
+    {
+      "id": 3,
+      "question": "When are you allowed to pass a school bus in Montana?",
+      "options": [
+        "When the red lights are flashing",
+        "When the bus is stationary",
+        "When the bus driver signals you to pass",
+        "None of the above"
+      ],
+      "correctAnswer": "None of the above",
+      "explanation": "It is illegal to pass a school bus that is stopped to load or unload children."
+    },
+    {
+      "id": 4,
+      "question": "What is the maximum speed limit on an urban freeway in Montana?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "75 mph",
+        "85 mph"
+      ],
+      "correctAnswer": "65 mph",
+      "explanation": "The maximum speed limit on an urban freeway in Montana is 65 mph."
+    },
+    {
+      "id": 5,
+      "question": "Where should you park if your vehicle breaks down on a highway?",
+      "options": [
+        "In the middle of the road",
+        "On the shoulder of the road",
+        "In the nearest parking lot",
+        "Anywhere"
+      ],
+      "correctAnswer": "On the shoulder of the road",
+      "explanation": "If your vehicle breaks down on a highway, you should park on the shoulder of the road as far away from traffic as possible."
+    },
+    {
+      "id": 6,
+      "question": "What should you do when driving in foggy conditions?",
+      "options": [
+        "Increase your speed",
+        "Use your high beam headlights",
+        "Follow other vehicles closely",
+        "Use your low beam headlights"
+      ],
+      "correctAnswer": "Use your low beam headlights",
+      "explanation": "In foggy conditions, use your low beam headlights because high beams will reflect off the fog and make it harder to see."
+    },
+    {
+      "id": 7,
+      "question": "Who has the right-of-way at a four-way stop?",
+      "options": [
+        "The vehicle that arrived first",
+        "The vehicle on the right",
+        "The vehicle on the left",
+        "The vehicle that is moving fastest"
+      ],
+      "correctAnswer": "The vehicle that arrived first",
+      "explanation": "At a four-way stop, the vehicle that arrived first has the right-of-way. If two vehicles arrive at the same time, the one on the right has the right-of-way."
+    },
+    {
+      "id": 8,
+      "question": "What does a flashing yellow light signal mean?",
+      "options": [
+        "Stop",
+        "Proceed with caution",
+        "The light is about to turn red",
+        "The light is about to turn green"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow light means you should slow down and proceed with caution."
+    },
+    {
+      "id": 9,
+      "question": "What should you do if you approach a pedestrian crosswalk while driving?",
+      "options": [
+        "Speed up to pass quickly",
+        "Honk your horn",
+        "Continue at the same speed",
+        "Slow down or stop if necessary"
+      ],
+      "correctAnswer": "Slow down or stop if necessary",
+      "explanation": "You must slow down or stop if necessary when approaching a pedestrian crosswalk to allow pedestrians to cross the road safely."
+    },
+    {
+      "id": 10,
+      "question": "What should you do if your car starts to skid on a wet road?",
+      "options": [
+        "Brake hard and steer in the opposite direction of the skid",
+        "Accelerate and steer in the same direction of the skid",
+        "Ease off the accelerator and steer in the direction you want to go",
+        "Stop steering and let the car correct itself"
+      ],
+      "correctAnswer": "Ease off the accelerator and steer in the direction you want to go",
+      "explanation": "If your car starts to skid, you should ease off the accelerator and steer in the direction you want to go to regain control."
+    }
+  ]
+}

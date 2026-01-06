@@ -1,0 +1,31 @@
+{
+  "state": "California",
+  "stateCode": "CA",
+  "version": "2024.01",
+  "questions": [
+    {
+      "id": "ca_q1",
+      "question": "What does a flashing red traffic light mean?",
+      "options": [
+        "Stop completely, then proceed when safe",
+        "Slow down and proceed with caution",
+        "Pedestrians must yield",
+        "Traffic from left has right of way"
+      ],
+      "answer": 0,
+      "explanation": "A flashing red light means you must stop completely, just like a stop sign. Proceed only when it's safe to do so."
+    },
+    {
+      "id": "ca_q2",
+      "question": "When are you allowed to make a U-turn in a business district?",
+      "options": [
+        "Only at intersections or openings marked for U-turns",
+        "Anywhere there's no oncoming traffic",
+        "In front of fire stations",
+        "Mid-block if visibility is good"
+      ],
+      "answer": 0,
+      "explanation": "In business districts, U-turns are legal only at intersections or where signs permit."
+    }
+  ]
+}

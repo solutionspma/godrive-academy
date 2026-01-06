@@ -1,0 +1,85 @@
+{
+  "_comment": "GoDrive.academy Template Configuration Schema",
+  "_version": "1.0.0",
+  "_template": "driving-school-v1",
+  
+  "schoolName": "",
+  "tagline": "",
+  "phone": "",
+  "email": "",
+  "address": "",
+  "city": "",
+  "state": "",
+  "zip": "",
+  "logo": "",
+  "favicon": "",
+  
+  "colors": {
+    "primary": "",
+    "primaryDark": "",
+    "primaryLight": "",
+    "accent": "",
+    "accentHover": "",
+    "success": ""
+  },
+  
+  "hero": {
+    "badge": "",
+    "headline": "",
+    "subheadline": "",
+    "ctaPrimaryText": "",
+    "ctaPrimaryLink": "",
+    "ctaSecondaryText": "",
+    "ctaSecondaryLink": "",
+    "stats": [
+      { "number": "", "label": "" },
+      { "number": "", "label": "" },
+      { "number": "", "label": "" }
+    ]
+  },
+  
+  "socials": {
+    "facebook": "",
+    "instagram": "",
+    "youtube": "",
+    "twitter": ""
+  },
+  
+  "features": {
+    "practiceTests": {
+      "enabled": true,
+      "title": "",
+      "description": "",
+      "badge": ""
+    },
+    "courses": [
+      {
+        "icon": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  
+  "locations": [
+    {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "hours": ""
+    }
+  ],
+  
+  "meta": {
+    "title": "",
+    "description": "",
+    "keywords": ""
+  },
+  
+  "database": {
+    "supabaseUrl": "",
+    "supabaseAnonKey": "",
+    "enableUserAuth": true,
+    "enableProgressTracking": true
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "state": "Nevada",
+  "stateCode": "NV",
+  "generatedAt": "2026-01-03T00:54:53.105Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Warning",
+        "No entry"
+      ],
+      "correctAnswer": "Warning",
+      "explanation": "A yellow diamond-shaped sign indicates a warning about road conditions."
+    },
+    {
+      "id": 2,
+      "question": "What does a red octagon-shaped sign mean?",
+      "options": [
+        "Stop",
+        "Yield",
+        "No entry",
+        "Do not enter"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red octagon-shaped sign means stop."
+    },
+    {
+      "id": 3,
+      "question": "Who gets the right-of-way at an intersection with no crosswalks?",
+      "options": [
+        "Pedestrians",
+        "Bicyclists",
+        "Motorists",
+        "Motorcyclists"
+      ],
+      "correctAnswer": "Pedestrians",
+      "explanation": "At intersections without crosswalks, pedestrians still have the right-of-way."
+    },
+    {
+      "id": 4,
+      "question": "What is the legal blood alcohol concentration (BAC) limit for drivers over 21 in Nevada?",
+      "options": [
+        "0.08%",
+        "0.10%",
+        "0.02%",
+        "0.05%"
+      ],
+      "correctAnswer": "0.08%",
+      "explanation": "In Nevada, the legal BAC limit for drivers over 21 is 0.08%."
+    },
+    {
+      "id": 5,
+      "question": "When can you park in front of a public or private driveway?",
+      "options": [
+        "When the driveway is not in use",
+        "When it's for a short period of time",
+        "When you have permission",
+        "Never"
+      ],
+      "correctAnswer": "Never",
+      "explanation": "You should never park in front of a public or private driveway."
+    },
+    {
+      "id": 6,
+      "question": "What should you do when driving in foggy conditions?",
+      "options": [
+        "Increase your speed",
+        "Use high beams",
+        "Use low beams",
+        "Turn off your headlights"
+      ],
+      "correctAnswer": "Use low beams",
+      "explanation": "In foggy conditions, use your low beams because high beams reflect off the fog and make visibility worse."
+    },
+    {
+      "id": 7,
+      "question": "What is the maximum speed limit on most Nevada highways if not otherwise posted?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "45 mph",
+        "70 mph"
+      ],
+      "correctAnswer": "70 mph",
+      "explanation": "The maximum speed limit on most Nevada highways, if not otherwise posted, is 70 mph."
+    },
+    {
+      "id": 8,
+      "question": "What does a yellow light or arrow signal indicate at a traffic light?",
+      "options": [
+        "Proceed with caution",
+        "Stop if safe",
+        "Increase speed",
+        "Yield to oncoming traffic"
+      ],
+      "correctAnswer": "Stop if safe",
+      "explanation": "A yellow light or arrow signal indicates that you should stop if it is safe to do so."
+    },
+    {
+      "id": 9,
+      "question": "Who has the right-of-way at a four-way stop?",
+      "options": [
+        "The driver who arrives first",
+        "The driver on the right",
+        "The driver on the left",
+        "The driver who is traveling faster"
+      ],
+      "correctAnswer": "The driver who arrives first",
+      "explanation": "At a four-way stop, the driver who arrives first has the right-of-way."
+    },
+    {
+      "id": 10,
+      "question": "What is the speed limit in school zones when children are present in Nevada?",
+      "options": [
+        "15 mph",
+        "25 mph",
+        "35 mph",
+        "20 mph"
+      ],
+      "correctAnswer": "15 mph",
+      "explanation": "The speed limit in school zones when children are present in Nevada is 15 mph."
+    }
+  ]
+}

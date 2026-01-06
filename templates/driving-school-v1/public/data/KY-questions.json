@@ -1,0 +1,128 @@
+{
+  "state": "Kentucky",
+  "stateCode": "KY",
+  "generatedAt": "2026-01-03T00:46:23.685Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red octagonal traffic sign mean?",
+      "options": [
+        "No U-Turn",
+        "Stop",
+        "Yield",
+        "Do Not Enter"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red octagonal sign is universally recognized as a stop sign."
+    },
+    {
+      "id": 2,
+      "question": "What does a flashing yellow traffic light indicate?",
+      "options": [
+        "Stop",
+        "Proceed with caution",
+        "Right of way",
+        "Do not enter"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow light means you must proceed with caution."
+    },
+    {
+      "id": 3,
+      "question": "What does a green arrow displayed on a traffic light mean?",
+      "options": [
+        "Proceed in the direction of the arrow if it is safe to do so",
+        "Stop and wait for green light",
+        "Yield",
+        "Do not enter"
+      ],
+      "correctAnswer": "Proceed in the direction of the arrow if it is safe to do so",
+      "explanation": "A green arrow means you may proceed in the direction the arrow points, if it is safe to do so."
+    },
+    {
+      "id": 4,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Warning or Caution",
+        "Speed Limit"
+      ],
+      "correctAnswer": "Warning or Caution",
+      "explanation": "Yellow diamond-shaped signs are used to warn drivers of upcoming road conditions and hazards."
+    },
+    {
+      "id": 5,
+      "question": "What is the speed limit in a residential area unless otherwise posted?",
+      "options": [
+        "25 mph",
+        "30 mph",
+        "35 mph",
+        "40 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The default speed limit in residential areas is 25 mph unless otherwise posted."
+    },
+    {
+      "id": 6,
+      "question": "When parking uphill with a curb, which way should your front wheels be turned?",
+      "options": [
+        "Away from the curb",
+        "Toward the curb",
+        "Straight ahead",
+        "Either way is fine"
+      ],
+      "correctAnswer": "Away from the curb",
+      "explanation": "When parking uphill with a curb, turn your front wheels away from the curb to prevent the car from rolling into traffic if the brakes fail."
+    },
+    {
+      "id": 7,
+      "question": "When driving in fog, what should you use?",
+      "options": [
+        "High beam headlights",
+        "Low beam headlights",
+        "No headlights",
+        "Emergency flashers"
+      ],
+      "correctAnswer": "Low beam headlights",
+      "explanation": "Use low beam headlights in fog, high beams will reflect back and impair visibility."
+    },
+    {
+      "id": 8,
+      "question": "Who has the right-of-way at an intersection where two drivers arrive at the same time at a right angle?",
+      "options": [
+        "The driver on the left",
+        "The driver on the right",
+        "The driver who is going straight",
+        "The driver who signals first"
+      ],
+      "correctAnswer": "The driver on the right",
+      "explanation": "At an intersection where two drivers arrive at the same time at a right angle, the driver on the right has the right-of-way."
+    },
+    {
+      "id": 9,
+      "question": "What should you do if you encounter a school bus with flashing red lights while driving?",
+      "options": [
+        "Pass the bus slowly",
+        "Stop",
+        "Continue driving at the same speed",
+        "Honk your horn"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "Flashing red lights on a school bus mean children are getting on or off the bus. You must stop."
+    },
+    {
+      "id": 10,
+      "question": "What does a 'No Parking' sign look like?",
+      "options": [
+        "Red and white with a 'P' symbol",
+        "Yellow and black with a 'P' symbol",
+        "White and black with a 'P' symbol crossed out",
+        "Green and white with a 'P' symbol"
+      ],
+      "correctAnswer": "White and black with a 'P' symbol crossed out",
+      "explanation": "A 'No Parking' sign is white and black with a 'P' symbol crossed out."
+    }
+  ]
+}

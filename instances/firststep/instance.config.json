@@ -1,0 +1,108 @@
+{
+  "_comment": "First Step Driving Academy - Instance Configuration",
+  "_version": "1.0.0",
+  "_template": "driving-school-v1",
+  "_instanceId": "firststep",
+  
+  "schoolName": "First Step Driving Academy",
+  "tagline": "Learn to Drive with Confidence",
+  "phone": "(555) 123-4567",
+  "email": "info@firststepdriving.com",
+  "address": "123 Main Street",
+  "city": "Your City",
+  "state": "CA",
+  "zip": "12345",
+  "logo": "images/logo.jpg",
+  "favicon": "images/favicon.ico",
+  
+  "colors": {
+    "primary": "#1e40af",
+    "primaryDark": "#1e3a8a",
+    "primaryLight": "#3b82f6",
+    "accent": "#f97316",
+    "accentHover": "#ea580c",
+    "success": "#10b981"
+  },
+  
+  "hero": {
+    "badge": "🚗 Trusted by 5,000+ Students",
+    "headline": "Learn to Drive with Confidence",
+    "subheadline": "Safe, certified, and patient instruction for all ages. Our expert instructors will have you road-ready in no time.",
+    "ctaPrimaryText": "Book Your Lesson",
+    "ctaPrimaryLink": "contact.html",
+    "ctaSecondaryText": "View Courses",
+    "ctaSecondaryLink": "courses.html",
+    "stats": [
+      { "number": "20+", "label": "Years Experience" },
+      { "number": "95%", "label": "Pass Rate" },
+      { "number": "5,000+", "label": "Students Taught" }
+    ]
+  },
+  
+  "socials": {
+    "facebook": "https://facebook.com/firststepdriving",
+    "instagram": "https://instagram.com/firststepdriving",
+    "youtube": "",
+    "twitter": "https://twitter.com/firststepdriving"
+  },
+  
+  "features": {
+    "practiceTests": {
+      "enabled": true,
+      "title": "Meet Your Personal Driving Test Coach",
+      "description": "Experience our revolutionary interactive practice platform with an <strong>animated AI coach</strong> that guides you through every question. Get instant feedback, detailed explanations, and pass your test with confidence!",
+      "badge": "✨ NEW: AI-Powered Coaching"
+    },
+    "courses": [
+      {
+        "icon": "🎓",
+        "title": "Teen Driver Education",
+        "description": "Complete driver education program meeting all state requirements. Classroom instruction plus behind-the-wheel training for new teen drivers."
+      },
+      {
+        "icon": "🚗",
+        "title": "Adult Driving Lessons",
+        "description": "Flexible scheduling for busy adults. Whether you're a first-time driver or returning after years away, we'll get you confident behind the wheel."
+      },
+      {
+        "icon": "🛣️",
+        "title": "Behind-the-Wheel Training",
+        "description": "One-on-one instruction in our modern, dual-control vehicles. Master parking, highway driving, and defensive techniques."
+      }
+    ]
+  },
+  
+  "locations": [
+    {
+      "name": "Main Campus",
+      "address": "123 Main Street, Your City, CA 12345",
+      "phone": "(555) 123-4567",
+      "hours": "Mon-Sat: 8AM-6PM"
+    },
+    {
+      "name": "North Location",
+      "address": "456 North Ave, Your City, CA 12346",
+      "phone": "(555) 234-5678",
+      "hours": "Mon-Fri: 9AM-5PM"
+    },
+    {
+      "name": "South Campus",
+      "address": "789 South Blvd, Your City, CA 12347",
+      "phone": "(555) 345-6789",
+      "hours": "Tue-Sat: 8AM-7PM"
+    }
+  ],
+  
+  "meta": {
+    "title": "First Step Driving Academy | Learn to Drive with Confidence",
+    "description": "First Step Driving Academy - Learn to drive with certified, patient instructors. Teen driver education, adult lessons, and road test prep in a safe, modern environment.",
+    "keywords": "driving school, driving lessons, teen driver education, adult driving lessons, road test prep, driving academy"
+  },
+  
+  "database": {
+    "supabaseUrl": "",
+    "supabaseAnonKey": "",
+    "enableUserAuth": true,
+    "enableProgressTracking": true
+  }
+}

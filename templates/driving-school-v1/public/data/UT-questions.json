@@ -1,0 +1,128 @@
+{
+  "state": "Utah",
+  "stateCode": "UT",
+  "generatedAt": "2026-01-03T01:05:10.014Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic light signal mean?",
+      "options": [
+        "Proceed with caution",
+        "The signal is out of order",
+        "Stop",
+        "Yield to oncoming traffic"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red light means that you must come to a complete stop."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "School zone",
+        "Railroad crossing",
+        "No passing zone",
+        "Road hazards"
+      ],
+      "correctAnswer": "Road hazards",
+      "explanation": "Yellow diamond signs are used to warn of potential hazards on or near the road."
+    },
+    {
+      "id": 3,
+      "question": "What does a flashing yellow light signal mean?",
+      "options": [
+        "Stop",
+        "The signal is out of order",
+        "Proceed with caution",
+        "Yield to oncoming traffic"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow light means slow down and proceed with caution."
+    },
+    {
+      "id": 4,
+      "question": "At an intersection, who has the right-of-way when both vehicles arrive at the same time?",
+      "options": [
+        "The vehicle on the left",
+        "The vehicle on the right",
+        "The vehicle that is moving faster",
+        "Both vehicles"
+      ],
+      "correctAnswer": "The vehicle on the right",
+      "explanation": "At an intersection, the vehicle on the right has the right-of-way if both vehicles arrive at the same time."
+    },
+    {
+      "id": 5,
+      "question": "When should you yield the right-of-way at an intersection?",
+      "options": [
+        "When you have a green light",
+        "When you are turning left",
+        "When you are turning right",
+        "When you are going straight"
+      ],
+      "correctAnswer": "When you are turning left",
+      "explanation": "You should always yield the right-of-way to oncoming traffic when you are turning left."
+    },
+    {
+      "id": 6,
+      "question": "What is the speed limit in a residential area unless otherwise posted in Utah?",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit in a residential area in Utah is 25 mph unless otherwise posted."
+    },
+    {
+      "id": 7,
+      "question": "When are you allowed to exceed the posted speed limit?",
+      "options": [
+        "When passing another vehicle",
+        "When there is no other traffic",
+        "Never",
+        "When you are late"
+      ],
+      "correctAnswer": "Never",
+      "explanation": "You should never exceed the posted speed limit. Speeding is illegal and dangerous."
+    },
+    {
+      "id": 8,
+      "question": "Where is it illegal to park your vehicle?",
+      "options": [
+        "In a parking lot",
+        "On the sidewalk",
+        "In your driveway",
+        "In a designated parking space"
+      ],
+      "correctAnswer": "On the sidewalk",
+      "explanation": "It is illegal to park your vehicle on the sidewalk."
+    },
+    {
+      "id": 9,
+      "question": "When parking uphill with a curb, which way should your wheels be turned?",
+      "options": [
+        "Towards the curb",
+        "Away from the curb",
+        "Straight",
+        "Either way is fine"
+      ],
+      "correctAnswer": "Away from the curb",
+      "explanation": "When parking uphill with a curb, your wheels should be turned away from the curb."
+    },
+    {
+      "id": 10,
+      "question": "What should you do if your vehicle starts to skid on a wet road?",
+      "options": [
+        "Brake hard",
+        "Steer in the direction of the skid",
+        "Steer in the opposite direction of the skid",
+        "Accelerate"
+      ],
+      "correctAnswer": "Steer in the direction of the skid",
+      "explanation": "If your vehicle starts to skid, you should steer in the direction of the skid to regain control."
+    }
+  ]
+}

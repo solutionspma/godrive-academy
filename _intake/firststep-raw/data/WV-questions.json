@@ -1,0 +1,128 @@
+{
+  "state": "West Virginia",
+  "stateCode": "WV",
+  "generatedAt": "2026-01-03T01:07:55.364Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop",
+        "No entry",
+        "Warning or caution",
+        "School zone"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond-shaped signs are used to warn drivers about upcoming road conditions and hazards."
+    },
+    {
+      "id": 2,
+      "question": "What does a red octagon sign mean?",
+      "options": [
+        "Yield",
+        "No parking",
+        "Stop",
+        "Do not enter"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red octagon sign is universally recognized as a stop sign."
+    },
+    {
+      "id": 3,
+      "question": "What does a green traffic light indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Go",
+        "Caution"
+      ],
+      "correctAnswer": "Go",
+      "explanation": "A green light means you can proceed if the intersection is clear."
+    },
+    {
+      "id": 4,
+      "question": "What does a flashing red traffic light mean?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Go",
+        "Caution"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A flashing red light has the same meaning as a stop sign."
+    },
+    {
+      "id": 5,
+      "question": "When are you allowed to pass another vehicle on the right?",
+      "options": [
+        "Never",
+        "If the vehicle is making a left turn",
+        "If the vehicle is making a right turn",
+        "Always"
+      ],
+      "correctAnswer": "If the vehicle is making a left turn",
+      "explanation": "You may pass a vehicle on the right if it is making a left turn, and there is room to pass safely."
+    },
+    {
+      "id": 6,
+      "question": "What is the speed limit in a school zone when children are present in West Virginia?",
+      "options": [
+        "15 mph",
+        "25 mph",
+        "35 mph",
+        "45 mph"
+      ],
+      "correctAnswer": "15 mph",
+      "explanation": "The speed limit in a school zone when children are present in West Virginia is 15 mph."
+    },
+    {
+      "id": 7,
+      "question": "When can you park in front of a driveway?",
+      "options": [
+        "Never",
+        "If the driveway is not in use",
+        "If you are only parking for a short time",
+        "If you have a disabled placard"
+      ],
+      "correctAnswer": "Never",
+      "explanation": "It is illegal to park in front of a driveway."
+    },
+    {
+      "id": 8,
+      "question": "When should you use your headlights?",
+      "options": [
+        "Between sunset and sunrise",
+        "When visibility is reduced due to weather",
+        "When driving on country roads at night",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "Headlights should be used between sunset and sunrise, in poor visibility conditions, and on country roads at night."
+    },
+    {
+      "id": 9,
+      "question": "What should you do if your vehicle breaks down on the highway?",
+      "options": [
+        "Stop in the traffic lane",
+        "Park with part of your vehicle on the highway",
+        "Move your vehicle off the traveled part of the highway if possible",
+        "Abandon your vehicle immediately"
+      ],
+      "correctAnswer": "Move your vehicle off the traveled part of the highway if possible",
+      "explanation": "If your vehicle breaks down, you should move it as far off the road as possible."
+    },
+    {
+      "id": 10,
+      "question": "What should you do if you're driving and a dust storm starts to reduce your visibility?",
+      "options": [
+        "Keep driving at the same speed",
+        "Pull over and turn off your lights",
+        "Increase your speed to get out of the storm",
+        "Turn on your high beams"
+      ],
+      "correctAnswer": "Pull over and turn off your lights",
+      "explanation": "If a dust storm reduces visibility, pull over safely, turn off your lights, and wait until the storm passes."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "state": "Missouri",
+  "stateCode": "MO",
+  "version": "2024.01",
+  "questions": [
+    {
+      "id": "MO_q1",
+      "question": "What should you do when approaching a yellow traffic light?",
+      "options": [
+        "Speed up to make it through",
+        "Stop if it is safe to do so",
+        "Continue at the same speed",
+        "Honk to warn other drivers"
+      ],
+      "answer": 1,
+      "explanation": "A yellow light means the signal is about to turn red. You should stop if you can do so safely. Only proceed if you are too close to stop safely."
+    },
+    {
+      "id": "MO_q2",
+      "question": "What is the proper following distance behind another vehicle?",
+      "options": [
+        "One car length",
+        "Two seconds",
+        "Three to four seconds",
+        "Ten feet"
+      ],
+      "answer": 2,
+      "explanation": "The three to four second rule gives you enough time to react if the vehicle ahead stops suddenly. Increase this distance in bad weather or at higher speeds."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "state": "Minnesota",
+  "stateCode": "MN",
+  "generatedAt": "2026-01-03T00:52:03.859Z",
+  "totalQuestions": 6,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic light signal mean?",
+      "options": [
+        "Proceed with caution",
+        "Stop",
+        "Speed up",
+        "Yield to pedestrians"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red light means stop. You can make a right turn at a red light only after coming to a complete stop and ensuring that the turn would not interfere with pedestrians and oncoming traffic."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "No passing zone",
+        "School zone",
+        "Warning or caution",
+        "Do not enter"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond-shaped signs indicate a warning to be prepared to slow down or stop if necessary."
+    },
+    {
+      "id": 3,
+      "question": "At an intersection with a four-way stop, who goes first?",
+      "options": [
+        "The vehicle that arrived first",
+        "The vehicle on the right",
+        "The vehicle on the left",
+        "Any vehicle turning right"
+      ],
+      "correctAnswer": "The vehicle that arrived first",
+      "explanation": "At an intersection with a four-way stop, the vehicle that arrived first has the right of way."
+    },
+    {
+      "id": 4,
+      "question": "What is the speed limit on urban or town roads in Minnesota unless otherwise posted?",
+      "options": [
+        "30 mph",
+        "50 mph",
+        "60 mph",
+        "70 mph"
+      ],
+      "correctAnswer": "30 mph",
+      "explanation": "The default speed limit on urban or town roads in Minnesota is 30 mph unless otherwise posted."
+    },
+    {
+      "id": 5,
+      "question": "Where should you NOT park your vehicle?",
+      "options": [
+        "In a marked parking zone",
+        "In a space reserved for disabled persons without a permit",
+        "Next to a red painted curb",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "You should not park your vehicle in spaces reserved for disabled persons without a permit, next to a red painted curb, and always park in marked parking zones."
+    },
+    {
+      "id": 6,
+      "question": "What should you do when driving in foggy conditions?",
+      "options": [
+        "Increase your speed to get out of the fog faster",
+        "Use your high beam headlights",
+        "Use your low beam headlights",
+        "Turn off your headlights"
+      ],
+      "correctAnswer": "Use your low beam headlights",
+      "explanation": "In foggy conditions, you should use your low beam headlights. High beams will only be reflected back off the fog and actually impair visibility even more."
+    }
+  ]
+}

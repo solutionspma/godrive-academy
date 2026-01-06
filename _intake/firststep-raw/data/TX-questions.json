@@ -1,0 +1,128 @@
+{
+  "state": "Texas",
+  "stateCode": "TX",
+  "generatedAt": "2026-01-03T01:04:45.923Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Warning",
+        "Do not enter"
+      ],
+      "correctAnswer": "Warning",
+      "explanation": "Yellow diamond-shaped signs are used to warn drivers about upcoming road conditions and hazards."
+    },
+    {
+      "id": 2,
+      "question": "What does a red octagon sign mean?",
+      "options": [
+        "Yield",
+        "Stop",
+        "Speed limit",
+        "Do not enter"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red octagon sign is universally used to indicate 'Stop'."
+    },
+    {
+      "id": 3,
+      "question": "What does a green traffic light mean?",
+      "options": [
+        "Stop",
+        "Go",
+        "Yield",
+        "Caution"
+      ],
+      "correctAnswer": "Go",
+      "explanation": "A green traffic light indicates that you can proceed, but must yield to pedestrians and vehicles still in the intersection."
+    },
+    {
+      "id": 4,
+      "question": "Who has the right-of-way at an intersection with no signs or signals?",
+      "options": [
+        "The vehicle on the left",
+        "The vehicle on the right",
+        "The vehicle that arrives first",
+        "All vehicles must come to a complete stop"
+      ],
+      "correctAnswer": "The vehicle on the right",
+      "explanation": "At an intersection with no signs or signals, the vehicle on the right has the right-of-way."
+    },
+    {
+      "id": 5,
+      "question": "What should you do when approaching a school bus with flashing red lights?",
+      "options": [
+        "Overtake the bus",
+        "Honk your horn",
+        "Stop",
+        "Continue at the same speed"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "When a school bus has flashing red lights, drivers must stop and remain stopped until the red lights stop flashing."
+    },
+    {
+      "id": 6,
+      "question": "What is the maximum speed limit on a Texas highway under ideal conditions?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "75 mph",
+        "85 mph"
+      ],
+      "correctAnswer": "75 mph",
+      "explanation": "The maximum speed limit on a Texas highway under ideal conditions is 75 mph, unless otherwise posted."
+    },
+    {
+      "id": 7,
+      "question": "When is it safe to exceed the posted speed limit?",
+      "options": [
+        "When passing another vehicle",
+        "In a designated speed zone",
+        "When traffic is light",
+        "Never"
+      ],
+      "correctAnswer": "Never",
+      "explanation": "It is never safe or legal to exceed the posted speed limit."
+    },
+    {
+      "id": 8,
+      "question": "What is the maximum legal parking distance from the curb?",
+      "options": [
+        "6 inches",
+        "12 inches",
+        "18 inches",
+        "24 inches"
+      ],
+      "correctAnswer": "18 inches",
+      "explanation": "In Texas, you must park no more than 18 inches from the curb."
+    },
+    {
+      "id": 9,
+      "question": "Is it legal to park in front of a driveway?",
+      "options": [
+        "Yes",
+        "No",
+        "Only if it's your own driveway",
+        "Only with permission from the property owner"
+      ],
+      "correctAnswer": "No",
+      "explanation": "It is illegal to park in front of a driveway in all cases."
+    },
+    {
+      "id": 10,
+      "question": "What should you do when driving in foggy conditions?",
+      "options": [
+        "Turn on high beams",
+        "Turn on low beams",
+        "Turn off headlights",
+        "Increase speed"
+      ],
+      "correctAnswer": "Turn on low beams",
+      "explanation": "In foggy conditions, you should reduce speed and use low beam headlights."
+    }
+  ]
+}

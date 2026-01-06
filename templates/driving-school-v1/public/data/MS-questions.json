@@ -1,0 +1,368 @@
+{
+  "state": "Mississippi",
+  "stateCode": "MS",
+  "generatedAt": "2026-01-03T00:53:14.125Z",
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic light signal mean?",
+      "options": [
+        "Go",
+        "Yield",
+        "Stop",
+        "Proceed with caution"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red traffic light signal means you must stop completely behind the stop line, crosswalk, or at the point nearest the intersecting roadway where the driver has a view of approaching traffic."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Warning or caution",
+        "School zone"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond-shaped signs are used to warn drivers of upcoming road conditions and hazards."
+    },
+    {
+      "id": 3,
+      "question": "What does a green traffic light signal mean?",
+      "options": [
+        "Stop",
+        "Go",
+        "Yield",
+        "Proceed with caution"
+      ],
+      "correctAnswer": "Go",
+      "explanation": "A green traffic light signal means you can go if the way is clear."
+    },
+    {
+      "id": 4,
+      "question": "What does a flashing yellow traffic light signal mean?",
+      "options": [
+        "Stop",
+        "Go",
+        "Yield",
+        "Proceed with caution"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow traffic light signal means you should slow down and proceed with caution."
+    },
+    {
+      "id": 5,
+      "question": "What does a stop sign look like?",
+      "options": [
+        "Red octagon",
+        "Yellow diamond",
+        "Blue circle",
+        "Green rectangle"
+      ],
+      "correctAnswer": "Red octagon",
+      "explanation": "A stop sign is a red octagon with the word 'STOP'."
+    },
+    {
+      "id": 6,
+      "question": "What does a yield sign look like?",
+      "options": [
+        "Red triangle",
+        "Yellow diamond",
+        "Blue circle",
+        "Green rectangle"
+      ],
+      "correctAnswer": "Red triangle",
+      "explanation": "A yield sign is a red and white triangle with the word 'YIELD'."
+    },
+    {
+      "id": 7,
+      "question": "What does a school zone sign look like?",
+      "options": [
+        "Red octagon",
+        "Yellow diamond",
+        "Blue circle",
+        "Green rectangle"
+      ],
+      "correctAnswer": "Yellow diamond",
+      "explanation": "School zone signs are yellow diamonds with symbols of people."
+    },
+    {
+      "id": 8,
+      "question": "What does a 'No U-Turn' sign look like?",
+      "options": [
+        "Red circle with a red slash",
+        "Yellow diamond",
+        "Blue circle",
+        "Green rectangle"
+      ],
+      "correctAnswer": "Red circle with a red slash",
+      "explanation": "'No U-Turn' signs are red circles with a red slash over a symbol of a U-turn."
+    },
+    {
+      "id": 9,
+      "question": "What does a 'No Parking' sign look like?",
+      "options": [
+        "Red circle with a red slash",
+        "Yellow diamond",
+        "Blue circle",
+        "Green rectangle"
+      ],
+      "correctAnswer": "Red circle with a red slash",
+      "explanation": "'No Parking' signs are red circles with a red slash over a symbol of a parked car."
+    },
+    {
+      "id": 10,
+      "question": "What does a 'One Way' sign look like?",
+      "options": [
+        "Red octagon",
+        "Yellow diamond",
+        "Blue circle",
+        "White rectangle with black arrow"
+      ],
+      "correctAnswer": "White rectangle with black arrow",
+      "explanation": "'One Way' signs are white rectangles with a black arrow indicating the direction of traffic."
+    },
+    {
+      "id": 11,
+      "question": "Who has the right-of-way at a four-way stop?",
+      "options": [
+        "The vehicle that arrived first",
+        "The vehicle to the right",
+        "The vehicle to the left",
+        "The vehicle that is moving fastest"
+      ],
+      "correctAnswer": "The vehicle that arrived first",
+      "explanation": "At a four-way stop, the vehicle that arrived first has the right-of-way."
+    },
+    {
+      "id": 12,
+      "question": "When two vehicles arrive at a four-way stop at the same time, who has the right-of-way?",
+      "options": [
+        "The vehicle on the left",
+        "The vehicle on the right",
+        "The vehicle going straight",
+        "The vehicle turning left"
+      ],
+      "correctAnswer": "The vehicle on the right",
+      "explanation": "When two vehicles arrive at a four-way stop at the same time, the vehicle on the right has the right-of-way."
+    },
+    {
+      "id": 13,
+      "question": "Who has the right-of-way at a yield sign?",
+      "options": [
+        "The vehicle at the yield sign",
+        "The vehicle on the right",
+        "The vehicle on the left",
+        "The vehicle with cross traffic"
+      ],
+      "correctAnswer": "The vehicle with cross traffic",
+      "explanation": "At a yield sign, drivers must give the right-of-way to cross traffic."
+    },
+    {
+      "id": 14,
+      "question": "Who has the right-of-way when turning left at a green light?",
+      "options": [
+        "The vehicle turning left",
+        "The vehicle going straight",
+        "The vehicle turning right",
+        "All vehicles have equal right-of-way"
+      ],
+      "correctAnswer": "The vehicle going straight",
+      "explanation": "At a green light, vehicles going straight have the right-of-way over vehicles turning left."
+    },
+    {
+      "id": 15,
+      "question": "Who has the right-of-way at a pedestrian crosswalk?",
+      "options": [
+        "The vehicle",
+        "The pedestrian",
+        "The vehicle turning right",
+        "The vehicle turning left"
+      ],
+      "correctAnswer": "The pedestrian",
+      "explanation": "At a pedestrian crosswalk, pedestrians have the right-of-way."
+    },
+    {
+      "id": 16,
+      "question": "What is the maximum speed limit on Mississippi interstates for passenger vehicles?",
+      "options": [
+        "65 mph",
+        "70 mph",
+        "75 mph",
+        "80 mph"
+      ],
+      "correctAnswer": "70 mph",
+      "explanation": "In Mississippi, the maximum speed limit on interstates for passenger vehicles is 70 mph unless otherwise posted."
+    },
+    {
+      "id": 17,
+      "question": "What is the maximum speed limit on Mississippi state highways for passenger vehicles?",
+      "options": [
+        "55 mph",
+        "60 mph",
+        "65 mph",
+        "70 mph"
+      ],
+      "correctAnswer": "65 mph",
+      "explanation": "In Mississippi, the maximum speed limit on state highways for passenger vehicles is 65 mph unless otherwise posted."
+    },
+    {
+      "id": 18,
+      "question": "What is the speed limit in a Mississippi school zone?",
+      "options": [
+        "15 mph",
+        "20 mph",
+        "25 mph",
+        "30 mph"
+      ],
+      "correctAnswer": "20 mph",
+      "explanation": "In Mississippi, the speed limit in school zones is 20 mph."
+    },
+    {
+      "id": 19,
+      "question": "What is the speed limit in a Mississippi residential area?",
+      "options": [
+        "25 mph",
+        "30 mph",
+        "35 mph",
+        "40 mph"
+      ],
+      "correctAnswer": "30 mph",
+      "explanation": "In Mississippi, the speed limit in residential areas is 30 mph."
+    },
+    {
+      "id": 20,
+      "question": "What is the speed limit in a Mississippi business district?",
+      "options": [
+        "25 mph",
+        "30 mph",
+        "35 mph",
+        "40 mph"
+      ],
+      "correctAnswer": "30 mph",
+      "explanation": "In Mississippi, the speed limit in business districts is 30 mph."
+    },
+    {
+      "id": 21,
+      "question": "Is it legal to park in front of a driveway?",
+      "options": [
+        "Yes",
+        "No",
+        "Only if the driveway is not in use",
+        "Only if the vehicle is attended"
+      ],
+      "correctAnswer": "No",
+      "explanation": "It is illegal to park in front of a driveway."
+    },
+    {
+      "id": 22,
+      "question": "Is it legal to park next to a red curb?",
+      "options": [
+        "Yes",
+        "No",
+        "Only if the vehicle is attended",
+        "Only for loading or unloading"
+      ],
+      "correctAnswer": "No",
+      "explanation": "It is illegal to park next to a red curb."
+    },
+    {
+      "id": 23,
+      "question": "Is it legal to park within 15 feet of a fire hydrant?",
+      "options": [
+        "Yes",
+        "No",
+        "Only if the vehicle is attended",
+        "Only for loading or unloading"
+      ],
+      "correctAnswer": "No",
+      "explanation": "It is illegal to park within 15 feet of a fire hydrant."
+    },
+    {
+      "id": 24,
+      "question": "Is it legal to park within 20 feet of a crosswalk at an intersection?",
+      "options": [
+        "Yes",
+        "No",
+        "Only if the vehicle is attended",
+        "Only for loading or unloading"
+      ],
+      "correctAnswer": "No",
+      "explanation": "It is illegal to park within 20 feet of a crosswalk at an intersection."
+    },
+    {
+      "id": 25,
+      "question": "Is it legal to park within 30 feet of a stop sign?",
+      "options": [
+        "Yes",
+        "No",
+        "Only if the vehicle is attended",
+        "Only for loading or unloading"
+      ],
+      "correctAnswer": "No",
+      "explanation": "It is illegal to park within 30 feet of a stop sign."
+    },
+    {
+      "id": 26,
+      "question": "What should you do if your vehicle begins to skid on wet pavement?",
+      "options": [
+        "Brake hard",
+        "Steer in the opposite direction of the skid",
+        "Steer in the direction of the skid",
+        "Accelerate"
+      ],
+      "correctAnswer": "Steer in the direction of the skid",
+      "explanation": "If your vehicle begins to skid on wet pavement, you should steer in the direction of the skid."
+    },
+    {
+      "id": 27,
+      "question": "What should you do if your vehicle's headlights fail at night?",
+      "options": [
+        "Continue driving, but slow down",
+        "Turn on your hazard lights and pull over",
+        "Turn on your high beams",
+        "Turn on your interior lights"
+      ],
+      "correctAnswer": "Turn on your hazard lights and pull over",
+      "explanation": "If your vehicle's headlights fail at night, you should turn on your hazard lights and pull over as soon as it is safe to do so."
+    },
+    {
+      "id": 28,
+      "question": "What should you do if a tire blows out while you are driving?",
+      "options": [
+        "Brake hard",
+        "Steer in the opposite direction",
+        "Steer straight and slow down",
+        "Accelerate"
+      ],
+      "correctAnswer": "Steer straight and slow down",
+      "explanation": "If a tire blows out while you are driving, you should steer straight and slow down."
+    },
+    {
+      "id": 29,
+      "question": "What should you do if your vehicle becomes submerged in water?",
+      "options": [
+        "Stay in the vehicle and wait for help",
+        "Try to swim out the window",
+        "Unbuckle your seatbelt and exit through the window",
+        "Unbuckle your seatbelt and exit through the sunroof"
+      ],
+      "correctAnswer": "Unbuckle your seatbelt and exit through the window",
+      "explanation": "If your vehicle becomes submerged in water, you should unbuckle your seatbelt and exit through the window."
+    },
+    {
+      "id": 30,
+      "question": "What should you do if your vehicle is approaching a tornado?",
+      "options": [
+        "Continue driving at a high speed",
+        "Pull over and stay in the vehicle",
+        "Pull over, exit the vehicle, and seek shelter in a low-lying area",
+        "Turn around and drive in the opposite direction"
+      ],
+      "correctAnswer": "Pull over, exit the vehicle, and seek shelter in a low-lying area",
+      "explanation": "If your vehicle is approaching a tornado, you should pull over, exit the vehicle, and seek shelter in a low-lying area."
+    }
+  ]
+}

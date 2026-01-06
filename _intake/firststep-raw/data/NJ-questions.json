@@ -1,0 +1,128 @@
+{
+  "state": "New Jersey",
+  "stateCode": "NJ",
+  "generatedAt": "2026-01-03T00:55:36.443Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a flashing yellow traffic light signal mean?",
+      "options": [
+        "Stop completely",
+        "Proceed with caution",
+        "Traffic light is out of order",
+        "Road closed ahead"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow light means proceed with caution, not stop."
+    },
+    {
+      "id": 2,
+      "question": "Who has the right of way when two vehicles approach an intersection at the same time?",
+      "options": [
+        "The vehicle on the left",
+        "The vehicle on the right",
+        "The vehicle moving faster",
+        "The vehicle that arrived first"
+      ],
+      "correctAnswer": "The vehicle on the right",
+      "explanation": "At an intersection where there is no stop sign, yield sign, or traffic signal, drivers must yield to vehicles coming from the right."
+    },
+    {
+      "id": 3,
+      "question": "What is the speed limit in a school zone unless otherwise posted?",
+      "options": [
+        "15 mph",
+        "25 mph",
+        "35 mph",
+        "45 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit is 25 mph in school zones, business, or residential districts unless otherwise posted."
+    },
+    {
+      "id": 4,
+      "question": "Where are you not allowed to park?",
+      "options": [
+        "In an intersection",
+        "On a hill",
+        "Next to a red curb",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "You are not allowed to park in an intersection, on a hill, or next to a red curb. These are all dangerous or illegal places to park."
+    },
+    {
+      "id": 5,
+      "question": "What should you do when driving in fog?",
+      "options": [
+        "Use your high beams",
+        "Use your low beams",
+        "Drive at the normal speed",
+        "Turn off your headlights"
+      ],
+      "correctAnswer": "Use your low beams",
+      "explanation": "In fog, you should use your low beams because high beams will reflect off the fog and make it harder to see."
+    },
+    {
+      "id": 6,
+      "question": "What does a red 'X' displayed above a traffic lane mean?",
+      "options": [
+        "The lane is open",
+        "The lane is closed",
+        "There is a detour",
+        "You must turn left"
+      ],
+      "correctAnswer": "The lane is closed",
+      "explanation": "A red 'X' displayed above a traffic lane means that the lane is closed to traffic in your direction."
+    },
+    {
+      "id": 7,
+      "question": "When are you required to yield the right-of-way to pedestrians?",
+      "options": [
+        "Only when they are in a marked crosswalk",
+        "Only when they are in an unmarked crosswalk",
+        "At all times",
+        "Only when traffic signals are not working"
+      ],
+      "correctAnswer": "At all times",
+      "explanation": "You must yield the right-of-way to pedestrians at all times, regardless of whether they are in a marked or unmarked crosswalk."
+    },
+    {
+      "id": 8,
+      "question": "What is the speed limit on an interstate highway in New Jersey unless otherwise posted?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "70 mph",
+        "75 mph"
+      ],
+      "correctAnswer": "65 mph",
+      "explanation": "The speed limit on an interstate highway in New Jersey is 65 mph unless otherwise posted."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is not a legal parking position?",
+      "options": [
+        "Parallel parking",
+        "Angle parking",
+        "Perpendicular parking",
+        "Double parking"
+      ],
+      "correctAnswer": "Double parking",
+      "explanation": "Double parking, or parking parallel to a car already parked at the curb, is illegal because it blocks traffic."
+    },
+    {
+      "id": 10,
+      "question": "What should you do if your vehicle starts to hydroplane?",
+      "options": [
+        "Brake hard",
+        "Steer towards the skid",
+        "Increase your speed",
+        "Ease off the accelerator"
+      ],
+      "correctAnswer": "Ease off the accelerator",
+      "explanation": "If your vehicle starts to hydroplane, you should ease off the accelerator. Do not brake hard or steer sharply as it could cause a skid."
+    }
+  ]
+}

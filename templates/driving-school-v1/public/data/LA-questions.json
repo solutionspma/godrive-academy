@@ -1,0 +1,128 @@
+{
+  "state": "Louisiana",
+  "stateCode": "LA",
+  "generatedAt": "2026-01-03T00:51:41.671Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic sign indicate?",
+      "options": [
+        "Yield",
+        "Stop or prohibited",
+        "Warning",
+        "Guide"
+      ],
+      "correctAnswer": "Stop or prohibited",
+      "explanation": "Red signs are used to indicate stop or prohibited actions."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond shaped sign mean?",
+      "options": [
+        "School zone",
+        "Construction area",
+        "Warning or caution",
+        "Regulatory information"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond signs are used to alert drivers about upcoming hazards or changes in the road."
+    },
+    {
+      "id": 3,
+      "question": "What does a green traffic sign represent?",
+      "options": [
+        "Prohibition",
+        "Direction or guidance",
+        "Warning",
+        "Construction"
+      ],
+      "correctAnswer": "Direction or guidance",
+      "explanation": "Green signs provide directional and guidance information."
+    },
+    {
+      "id": 4,
+      "question": "What does a flashing yellow light mean at an intersection?",
+      "options": [
+        "Stop",
+        "Proceed with caution",
+        "Right of way",
+        "Do not enter"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow light means you should slow down and proceed with caution."
+    },
+    {
+      "id": 5,
+      "question": "What should you do if you approach a school bus with flashing red lights?",
+      "options": [
+        "Speed up to pass",
+        "Continue driving",
+        "Stop",
+        "Honk your horn"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "You must stop if you approach a school bus with flashing red lights; this signals that children are getting on or off the bus."
+    },
+    {
+      "id": 6,
+      "question": "Who has the right of way at a four-way stop?",
+      "options": [
+        "The driver who arrived first",
+        "The driver on the right",
+        "The driver on the left",
+        "The driver who is going straight"
+      ],
+      "correctAnswer": "The driver who arrived first",
+      "explanation": "The driver who arrives first at a four-way stop has the right of way."
+    },
+    {
+      "id": 7,
+      "question": "Who has the right of way when two vehicles arrive at an uncontrolled intersection at the same time?",
+      "options": [
+        "The driver on the left",
+        "The driver on the right",
+        "The driver who is turning left",
+        "The driver who is going straight"
+      ],
+      "correctAnswer": "The driver on the right",
+      "explanation": "At an uncontrolled intersection, the driver on the right has the right of way."
+    },
+    {
+      "id": 8,
+      "question": "What is the speed limit in a residential area unless otherwise posted in Louisiana?",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit in residential areas in Louisiana is 25 mph unless otherwise posted."
+    },
+    {
+      "id": 9,
+      "question": "In Louisiana, at what speed are you considered to be legally speeding on the highway if not posted?",
+      "options": [
+        "55 mph",
+        "60 mph",
+        "65 mph",
+        "70 mph"
+      ],
+      "correctAnswer": "70 mph",
+      "explanation": "If not posted, the legal speed limit on the highway in Louisiana is 70 mph."
+    },
+    {
+      "id": 10,
+      "question": "When is it legal to park in front of a private driveway?",
+      "options": [
+        "When the driveway is not in use",
+        "When the owner gives permission",
+        "Never",
+        "During daylight hours"
+      ],
+      "correctAnswer": "Never",
+      "explanation": "It is never legal to park in front of a private driveway; it could block access for the owner."
+    }
+  ]
+}

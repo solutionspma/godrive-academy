@@ -1,0 +1,128 @@
+{
+  "state": "North Carolina",
+  "stateCode": "NC",
+  "generatedAt": "2026-01-03T00:57:54.821Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "School zone",
+        "Stop sign ahead",
+        "Warning or caution",
+        "Hospital ahead"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond-shaped signs are used to warn drivers of potential dangers on the road."
+    },
+    {
+      "id": 2,
+      "question": "What does a red octagon sign mean?",
+      "options": [
+        "Yield",
+        "Stop",
+        "Do not enter",
+        "Warning"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red octagon sign is universally recognized as a stop sign."
+    },
+    {
+      "id": 3,
+      "question": "What does a green traffic light indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Go",
+        "Caution"
+      ],
+      "correctAnswer": "Go",
+      "explanation": "A green traffic light means you can go if the way is clear."
+    },
+    {
+      "id": 4,
+      "question": "When a school bus is stopped on the road ahead with its lights flashing, you must:",
+      "options": [
+        "Honk your horn",
+        "Speed up to pass",
+        "Continue at the same speed",
+        "Stop until the lights stop flashing"
+      ],
+      "correctAnswer": "Stop until the lights stop flashing",
+      "explanation": "In North Carolina, drivers are required to stop when a school bus is stopped with its lights flashing."
+    },
+    {
+      "id": 5,
+      "question": "Who has the right-of-way when two vehicles arrive at an intersection at the same time?",
+      "options": [
+        "The vehicle on the left",
+        "The vehicle on the right",
+        "The vehicle turning left",
+        "The vehicle turning right"
+      ],
+      "correctAnswer": "The vehicle on the right",
+      "explanation": "The general rule is 'First to stop = First to go'. But when it's unclear, the vehicle on the right should go first."
+    },
+    {
+      "id": 6,
+      "question": "What is the speed limit in a residential area, unless otherwise posted?",
+      "options": [
+        "25 mph",
+        "35 mph",
+        "45 mph",
+        "55 mph"
+      ],
+      "correctAnswer": "35 mph",
+      "explanation": "In North Carolina, the speed limit in residential areas is 35 mph unless otherwise posted."
+    },
+    {
+      "id": 7,
+      "question": "When parking uphill with a curb, which way should you turn your wheels?",
+      "options": [
+        "Towards the curb",
+        "Away from the curb",
+        "Straight",
+        "Either way is fine"
+      ],
+      "correctAnswer": "Away from the curb",
+      "explanation": "When parking uphill with a curb, you should turn your wheels away from the curb."
+    },
+    {
+      "id": 8,
+      "question": "In heavy rain, you should:",
+      "options": [
+        "Speed up",
+        "Turn on your high-beam headlights",
+        "Slow down and use low-beam headlights",
+        "Stop and park until the rain stops"
+      ],
+      "correctAnswer": "Slow down and use low-beam headlights",
+      "explanation": "In heavy rain, it's safer to slow down due to decreased visibility and slippery roads. Low-beam headlights should be used to help other drivers see your vehicle."
+    },
+    {
+      "id": 9,
+      "question": "In North Carolina, you are legally considered 'drunk' when your blood alcohol concentration (BAC) is:",
+      "options": [
+        "0.06%",
+        "0.08%",
+        "0.10%",
+        "0.12%"
+      ],
+      "correctAnswer": "0.08%",
+      "explanation": "In North Carolina, you are legally considered 'drunk' when your blood alcohol concentration (BAC) is 0.08% or higher."
+    },
+    {
+      "id": 10,
+      "question": "What is the penalty for a first conviction of driving under the influence (DUI) in North Carolina?",
+      "options": [
+        "Up to 60 days in jail and/or a $200 fine",
+        "Up to 6 months in jail and/or a $500 fine",
+        "Up to 1 year in jail and/or a $1,000 fine",
+        "Up to 2 years in jail and/or a $2,000 fine"
+      ],
+      "correctAnswer": "Up to 60 days in jail and/or a $200 fine",
+      "explanation": "In North Carolina, the penalty for a first conviction of DUI can include up to 60 days in jail and/or a fine of $200."
+    }
+  ]
+}

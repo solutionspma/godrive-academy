@@ -1,0 +1,128 @@
+{
+  "state": "Rhode Island",
+  "stateCode": "RI",
+  "generatedAt": "2026-01-03T01:03:20.625Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic light signal mean?",
+      "options": [
+        "Go",
+        "Stop",
+        "Yield",
+        "Caution"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red light indicates drivers must stop before the intersection."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop",
+        "No entry",
+        "Warning or caution",
+        "School zone"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond-shaped signs are used to warn drivers of potential hazards ahead."
+    },
+    {
+      "id": 3,
+      "question": "What does a 'No U-Turn' sign mean?",
+      "options": [
+        "You can make a U-turn",
+        "You cannot make a U-turn",
+        "U-turn only",
+        "U-turn or left turn allowed"
+      ],
+      "correctAnswer": "You cannot make a U-turn",
+      "explanation": "A 'No U-Turn' sign means U-turns are prohibited."
+    },
+    {
+      "id": 4,
+      "question": "At an intersection, who has the right of way when both drivers arrive at the same time?",
+      "options": [
+        "The driver on the left",
+        "The driver on the right",
+        "The driver going straight",
+        "The driver turning left"
+      ],
+      "correctAnswer": "The driver on the right",
+      "explanation": "When two vehicles arrive at an intersection at the same time, the driver on the right has the right of way."
+    },
+    {
+      "id": 5,
+      "question": "What is the speed limit in residential areas unless otherwise posted in Rhode Island?",
+      "options": [
+        "25 mph",
+        "30 mph",
+        "35 mph",
+        "40 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The default speed limit in residential areas in Rhode Island is 25 mph unless otherwise posted."
+    },
+    {
+      "id": 6,
+      "question": "When parallel parking, how far should your vehicle be from the curb?",
+      "options": [
+        "6 inches",
+        "12 inches",
+        "18 inches",
+        "24 inches"
+      ],
+      "correctAnswer": "12 inches",
+      "explanation": "When parallel parking, your vehicle should be no more than 12 inches away from the curb."
+    },
+    {
+      "id": 7,
+      "question": "What should you do if your vehicle starts to skid on a wet road?",
+      "options": [
+        "Brake hard",
+        "Steer in the direction of the skid",
+        "Steer in the opposite direction of the skid",
+        "Accelerate"
+      ],
+      "correctAnswer": "Steer in the direction of the skid",
+      "explanation": "If your vehicle skids, you should steer in the direction of the skid to regain control."
+    },
+    {
+      "id": 8,
+      "question": "What does a green arrow signal indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Go in the direction of the arrow",
+        "Do not go in the direction of the arrow"
+      ],
+      "correctAnswer": "Go in the direction of the arrow",
+      "explanation": "A green arrow signal means you can proceed in the direction of the arrow if the way is clear."
+    },
+    {
+      "id": 9,
+      "question": "What should you do when you see a 'Yield' sign?",
+      "options": [
+        "Stop",
+        "Slow down and prepare to stop if necessary",
+        "Speed up",
+        "Ignore the sign"
+      ],
+      "correctAnswer": "Slow down and prepare to stop if necessary",
+      "explanation": "A 'Yield' sign means you should slow down and let vehicles crossing your path go first."
+    },
+    {
+      "id": 10,
+      "question": "What is the maximum speed limit on interstate highways in Rhode Island unless otherwise posted?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "75 mph",
+        "85 mph"
+      ],
+      "correctAnswer": "65 mph",
+      "explanation": "The maximum speed limit on interstate highways in Rhode Island is 65 mph unless otherwise posted."
+    }
+  ]
+}

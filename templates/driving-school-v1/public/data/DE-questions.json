@@ -1,0 +1,128 @@
+{
+  "state": "Delaware",
+  "stateCode": "DE",
+  "generatedAt": "2026-01-03T00:39:45.221Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic signal light mean?",
+      "options": [
+        "Go",
+        "Yield",
+        "Stop",
+        "Proceed with caution"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red signal means stop. You can make a right turn after you stop and yield to pedestrians and other traffic."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop sign ahead",
+        "School crossing",
+        "Warning or caution",
+        "No passing zone"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond-shaped signs are used to warn drivers of potential hazards or changing road conditions."
+    },
+    {
+      "id": 3,
+      "question": "What does a green arrow signal mean?",
+      "options": [
+        "The light is about to turn red",
+        "You have the right-of-way to turn in the direction the arrow is pointing",
+        "You must stop",
+        "You must yield"
+      ],
+      "correctAnswer": "You have the right-of-way to turn in the direction the arrow is pointing",
+      "explanation": "A green arrow signal means you have the right-of-way to turn in the direction the arrow is pointing."
+    },
+    {
+      "id": 4,
+      "question": "Who has the right-of-way at an intersection with no crosswalks?",
+      "options": [
+        "Pedestrians",
+        "Motorcyclists",
+        "Bicyclists",
+        "Drivers"
+      ],
+      "correctAnswer": "Pedestrians",
+      "explanation": "Pedestrians always have the right-of-way at intersections, regardless of whether a crosswalk is marked."
+    },
+    {
+      "id": 5,
+      "question": "When are you allowed to exceed the posted speed limit?",
+      "options": [
+        "When passing another vehicle",
+        "In a school zone",
+        "In an emergency",
+        "Never"
+      ],
+      "correctAnswer": "Never",
+      "explanation": "It is against the law to exceed the posted speed limit under any circumstances."
+    },
+    {
+      "id": 6,
+      "question": "Where should you not park your vehicle?",
+      "options": [
+        "In a designated parking spot",
+        "In a crosswalk",
+        "Next to a red curb",
+        "All of the above"
+      ],
+      "correctAnswer": "In a crosswalk",
+      "explanation": "Parking in a crosswalk is prohibited as it can obstruct pedestrian traffic and create safety hazards."
+    },
+    {
+      "id": 7,
+      "question": "What should you do when driving in foggy conditions?",
+      "options": [
+        "Increase your speed",
+        "Use your high-beam headlights",
+        "Follow other vehicles closely",
+        "Use your low-beam headlights"
+      ],
+      "correctAnswer": "Use your low-beam headlights",
+      "explanation": "In foggy conditions, use your low-beam headlights to increase visibility."
+    },
+    {
+      "id": 8,
+      "question": "What does a flashing yellow traffic signal light mean?",
+      "options": [
+        "Stop",
+        "Proceed with caution",
+        "The light is about to turn red",
+        "Yield"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow signal means slow down and proceed with caution."
+    },
+    {
+      "id": 9,
+      "question": "What does a No U-Turn sign mean?",
+      "options": [
+        "You can make a U-turn",
+        "U-turns are not allowed",
+        "U-turns are allowed only during certain hours",
+        "You must make a U-turn"
+      ],
+      "correctAnswer": "U-turns are not allowed",
+      "explanation": "A No U-Turn sign indicates that U-turns are prohibited."
+    },
+    {
+      "id": 10,
+      "question": "Who has the right-of-way when two vehicles arrive at an intersection at the same time?",
+      "options": [
+        "The vehicle on the right",
+        "The vehicle on the left",
+        "The vehicle that is moving faster",
+        "The vehicle that arrived first"
+      ],
+      "correctAnswer": "The vehicle on the right",
+      "explanation": "At an intersection where there is no stop sign, yield sign, or oncoming traffic signal, vehicles must yield to vehicles on their right."
+    }
+  ]
+}

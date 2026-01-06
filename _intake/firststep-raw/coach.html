@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Driving Test Coach - First Step Driving School</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/coach.css"/>
+  <link rel="stylesheet" href="css/demo-banner.css"/>
+  <link rel="stylesheet" href="css/state-selector.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="First Step Driving Academy">
+        <span class="logo-text">First Step Driving</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="coach.html" class="active">Practice Tests</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contact.html" class="nav-cta">Book Now</a></li>
+      </ul>
+      <div class="mobile-toggle" onclick="toggleNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <main class="coach-container">
+    <div class="hero-section">
+      <h1>🎯 Driving Test Coach</h1>
+      <p>Practice with real DMV-style questions. Pass with confidence.</p>
+    </div>
+
+    <!-- Animated Coach Character -->
+    <div id="coachCharacter" class="coach-character hidden">
+      <div class="coach-avatar">
+        <div class="avatar-face">
+          <div class="avatar-eyes">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+          </div>
+          <div class="avatar-mouth"></div>
+        </div>
+      </div>
+      <div class="coach-speech-bubble" id="coachMessage">
+        <p>Hi! I'm Coach Taylor. Let's ace this test together! 🚗</p>
+      </div>
+    </div>
+
+    <section id="stateSelector" class="state-selector">
+      <div class="map-container">
+        <h2 style="text-align: center; margin-bottom: 1rem; color: #1e293b;">🗺️ Choose Your State</h2>
+        <p style="text-align: center; margin-bottom: 2rem; color: #64748b;">Click on any state to start practicing</p>
+        
+        <svg id="usaMap" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: auto; max-width: 960px; margin: 0 auto; display: block;">
+          <!-- States will be dynamically inserted here -->
+        </svg>
+        
+        <div id="tooltip" style="position: absolute; background: rgba(30, 41, 59, 0.95); color: white; padding: 0.5rem 1rem; border-radius: 0.5rem; font-size: 0.9rem; pointer-events: none; opacity: 0; transition: opacity 0.2s; z-index: 1000;"></div>
+      </div>
+    </section>
+
+    <section id="quizArea" class="quiz-area hidden">
+      <div class="quiz-header">
+        <span id="questionNumber">Question 1 of 10</span>
+      </div>
+      <div class="question-card">
+        <h3 id="questionText">Question will appear here</h3>
+        <div id="options" class="options-container">
+          <!-- Options will be injected here -->
+        </div>
+        <div id="explanation" class="explanation" style="display: none;">
+          <!-- Explanation will appear here -->
+        </div>
+        <button id="nextBtn" class="next-btn" onclick="window.nextQuestion()" style="display: none;">
+          Next Question →
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Demo Banner -->
+  <div id="demoBanner" class="demo-banner">
+    <div class="demo-banner-content">
+      <div class="demo-banner-icon">🎯</div>
+      <div class="demo-banner-text">
+        <h4>You're Using the Demo Version</h4>
+        <p>Upgrade to unlock 50+ questions, full analytics, and custom branding</p>
+      </div>
+    </div>
+    <a href="https://pitchmarketing.agency/contact" target="_blank" class="demo-banner-cta">Book a Call →</a>
+  </div>
+
+  <footer style="text-align: center; padding: 2rem 1rem; background: #1e293b; color: white; margin-top: 4rem;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 2rem; margin-bottom: 2rem;">
+        <div style="flex: 1; min-width: 200px;">
+          <h4 style="color: #60a5fa; margin-bottom: 0.5rem;">Quick Links</h4>
+          <p style="margin: 0.25rem 0;"><a href="index.html" style="color: #cbd5e1; text-decoration: none;">Home</a></p>
+          <p style="margin: 0.25rem 0;"><a href="courses.html" style="color: #cbd5e1; text-decoration: none;">Courses</a></p>
+          <p style="margin: 0.25rem 0;"><a href="contact.html" style="color: #cbd5e1; text-decoration: none;">Contact</a></p>
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+          <h4 style="color: #60a5fa; margin-bottom: 0.5rem;">Resources</h4>
+          <p style="margin: 0.25rem 0;"><a href="coach.html" style="color: #cbd5e1; text-decoration: none;">Practice Tests</a></p>
+          <p style="margin: 0.25rem 0;"><a href="dashboard.html" style="color: #cbd5e1; text-decoration: none;">Dashboard</a></p>
+          <p style="margin: 0.25rem 0;"><a href="login.html" style="color: #cbd5e1; text-decoration: none;">Login</a></p>
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+          <h4 style="color: #60a5fa; margin-bottom: 0.5rem;">Contact</h4>
+          <p style="margin: 0.25rem 0; color: #cbd5e1;">📞 (555) 123-4567</p>
+          <p style="margin: 0.25rem 0; color: #cbd5e1;">✉️ info@firststepdriving.com</p>
+          <p style="margin: 0.25rem 0; color: #cbd5e1;">📍 123 Main St, Anytown</p>
+        </div>
+      </div>
+      <div style="border-top: 1px solid #334155; padding-top: 1rem;">
+        <p style="margin: 0; font-size: 0.9rem; color: #94a3b8;">
+          © 2024 First Step Driving School. All rights reserved. | 
+          <a href="https://pitchmarketing.agency" target="_blank" style="color: #60a5fa; text-decoration: none;">Pitch Marketing Agency</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/auth-core.js"></script>
+  <script type="module" src="js/coach.js"></script>
+  <script>
+    function toggleNav() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+{
+  "state": "Oregon",
+  "stateCode": "OR",
+  "generatedAt": "2026-01-03T01:02:25.937Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic light signal mean?",
+      "options": [
+        "Proceed with caution",
+        "Stop",
+        "Yield",
+        "Go when safe"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red light means stop. You can make a turn if no sign prohibits it, but you must yield to pedestrians and other traffic."
+    },
+    {
+      "id": 2,
+      "question": "When you see a flashing yellow traffic signal, what should you do?",
+      "options": [
+        "Continue at the same speed",
+        "Stop",
+        "Proceed with caution",
+        "Accelerate"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow signal means slow down and proceed with caution."
+    },
+    {
+      "id": 3,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Warning or caution",
+        "Do not enter"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond-shaped signs indicate a warning of possible hazards ahead."
+    },
+    {
+      "id": 4,
+      "question": "Who has the right-of-way at an intersection with no signs or signals?",
+      "options": [
+        "The car on the right",
+        "The car on the left",
+        "The car that arrives first",
+        "The car that is traveling fastest"
+      ],
+      "correctAnswer": "The car on the right",
+      "explanation": "At an intersection where there are no signs or signals, the vehicle on the right has the right-of-way."
+    },
+    {
+      "id": 5,
+      "question": "When two cars meet on a steep mountain road where neither can pass, who has the right-of-way?",
+      "options": [
+        "The car traveling uphill",
+        "The car traveling downhill",
+        "The car that arrives first",
+        "Both cars should back up"
+      ],
+      "correctAnswer": "The car traveling uphill",
+      "explanation": "The vehicle traveling uphill has the right-of-way if two vehicles meet on a steep road where neither can pass."
+    },
+    {
+      "id": 6,
+      "question": "What is the basic speed rule?",
+      "options": [
+        "Never exceed the posted speed limit",
+        "Do not drive faster than is safe for conditions",
+        "Always keep up with the flow of traffic",
+        "Stay in the right lane if driving below the speed limit"
+      ],
+      "correctAnswer": "Do not drive faster than is safe for conditions",
+      "explanation": "The basic speed rule states that you must not drive faster than is safe for current conditions, regardless of the posted speed limit."
+    },
+    {
+      "id": 7,
+      "question": "What is the maximum speed limit on an interstate in Oregon?",
+      "options": [
+        "70 mph",
+        "65 mph",
+        "55 mph",
+        "60 mph"
+      ],
+      "correctAnswer": "70 mph",
+      "explanation": "The maximum speed limit on most interstate highways in Oregon is 70 mph."
+    },
+    {
+      "id": 8,
+      "question": "Where is it illegal to park?",
+      "options": [
+        "In an intersection",
+        "On a sidewalk",
+        "In a crosswalk",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "It is illegal to park in an intersection, on a sidewalk, or in a crosswalk."
+    },
+    {
+      "id": 9,
+      "question": "When parking uphill on a street with a curb, which way should your wheels be turned?",
+      "options": [
+        "Towards the street",
+        "Away from the street",
+        "Parallel to the curb",
+        "Either towards or away from the street"
+      ],
+      "correctAnswer": "Away from the street",
+      "explanation": "When parking uphill on a street with a curb, your wheels should be turned away from the street."
+    },
+    {
+      "id": 10,
+      "question": "What should you do if your vehicle starts to hydroplane?",
+      "options": [
+        "Brake sharply",
+        "Steer towards the skid",
+        "Ease off the gas and steer straight",
+        "Accelerate"
+      ],
+      "correctAnswer": "Ease off the gas and steer straight",
+      "explanation": "If your vehicle starts to hydroplane, ease off the gas and keep the steering wheel straight until your car regains traction."
+    }
+  ]
+}

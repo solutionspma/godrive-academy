@@ -1,0 +1,128 @@
+{
+  "state": "Arizona",
+  "stateCode": "AZ",
+  "generatedAt": "2026-01-03T00:37:32.114Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic light signal mean?",
+      "options": [
+        "Go",
+        "Yield",
+        "Stop",
+        "Caution"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red traffic light signal means you must stop before entering the crosswalk or intersection."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "No passing zone",
+        "Warning or caution",
+        "Regulatory information",
+        "Stop or yield"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond-shaped signs are used to warn drivers about upcoming road conditions and hazards."
+    },
+    {
+      "id": 3,
+      "question": "Who has the right-of-way at an intersection with no crosswalks?",
+      "options": [
+        "Pedestrians",
+        "Vehicles",
+        "Bicyclists",
+        "Motorcyclists"
+      ],
+      "correctAnswer": "Vehicles",
+      "explanation": "At an intersection with no crosswalks, vehicles have the right-of-way over pedestrians."
+    },
+    {
+      "id": 4,
+      "question": "When can you exceed the posted speed limit?",
+      "options": [
+        "When passing another vehicle",
+        "During daylight hours",
+        "Never",
+        "In a school zone"
+      ],
+      "correctAnswer": "Never",
+      "explanation": "You must not exceed the posted speed limit at any time."
+    },
+    {
+      "id": 5,
+      "question": "Where is it illegal to park?",
+      "options": [
+        "In an intersection",
+        "In a parking space",
+        "On the side of a road",
+        "In a parking lot"
+      ],
+      "correctAnswer": "In an intersection",
+      "explanation": "It's illegal to park in an intersection as it obstructs traffic."
+    },
+    {
+      "id": 6,
+      "question": "What should you do when driving in fog?",
+      "options": [
+        "Use your high beams",
+        "Use your low beams",
+        "Drive at the speed limit",
+        "Drive without lights"
+      ],
+      "correctAnswer": "Use your low beams",
+      "explanation": "In foggy conditions, using low beams will provide better visibility than high beams."
+    },
+    {
+      "id": 7,
+      "question": "What does a flashing yellow signal light mean?",
+      "options": [
+        "Stop",
+        "Proceed with caution",
+        "Yield",
+        "The light is broken"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow signal light means proceed with caution."
+    },
+    {
+      "id": 8,
+      "question": "Who has the right-of-way in a roundabout?",
+      "options": [
+        "Vehicles entering the roundabout",
+        "Vehicles already in the roundabout",
+        "Pedestrians",
+        "Bicyclists"
+      ],
+      "correctAnswer": "Vehicles already in the roundabout",
+      "explanation": "Vehicles already in the roundabout have the right-of-way over those entering."
+    },
+    {
+      "id": 9,
+      "question": "What is the maximum speed limit on a rural interstate highway in Arizona?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "75 mph",
+        "85 mph"
+      ],
+      "correctAnswer": "75 mph",
+      "explanation": "The maximum speed limit on a rural interstate highway in Arizona is 75 mph."
+    },
+    {
+      "id": 10,
+      "question": "What is the standard parking distance from a fire hydrant?",
+      "options": [
+        "10 feet",
+        "15 feet",
+        "20 feet",
+        "25 feet"
+      ],
+      "correctAnswer": "15 feet",
+      "explanation": "You must not park within 15 feet of a fire hydrant."
+    }
+  ]
+}

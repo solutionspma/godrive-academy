@@ -1,0 +1,128 @@
+{
+  "state": "Michigan",
+  "stateCode": "MI",
+  "generatedAt": "2026-01-03T00:49:24.421Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red traffic signal mean?",
+      "options": [
+        "Proceed with caution",
+        "Stop",
+        "Yield",
+        "Speed up"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red traffic signal indicates that you must stop."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond-shaped sign indicate?",
+      "options": [
+        "No passing zone",
+        "School zone",
+        "Warning or caution",
+        "Stop ahead"
+      ],
+      "correctAnswer": "Warning or caution",
+      "explanation": "Yellow diamond-shaped signs indicate that there is a warning or caution."
+    },
+    {
+      "id": 3,
+      "question": "What does a flashing yellow light mean?",
+      "options": [
+        "Stop",
+        "Proceed with caution",
+        "Yield",
+        "Detour ahead"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow light indicates that you should proceed with caution."
+    },
+    {
+      "id": 4,
+      "question": "What does a green arrow signal mean?",
+      "options": [
+        "You must stop",
+        "You can proceed in the direction of the arrow",
+        "You must yield",
+        "Do not enter"
+      ],
+      "correctAnswer": "You can proceed in the direction of the arrow",
+      "explanation": "A green arrow signal indicates that you can proceed in the direction of the arrow."
+    },
+    {
+      "id": 5,
+      "question": "What does a red circle with a line through it on a sign mean?",
+      "options": [
+        "Do not enter",
+        "No U-turn",
+        "Stop",
+        "Yield"
+      ],
+      "correctAnswer": "No",
+      "explanation": "A red circle with a line through it on a sign means that the action is not allowed."
+    },
+    {
+      "id": 6,
+      "question": "At an intersection with a stop sign, who should go first?",
+      "options": [
+        "The car that arrived first",
+        "The car on the left",
+        "The car on the right",
+        "The car going straight"
+      ],
+      "correctAnswer": "The car that arrived first",
+      "explanation": "At an intersection with a stop sign, the car that arrived first should go first."
+    },
+    {
+      "id": 7,
+      "question": "Who has the right of way at an intersection with no stop or yield signs?",
+      "options": [
+        "The car on the left",
+        "The car on the right",
+        "The car going straight",
+        "The car turning left"
+      ],
+      "correctAnswer": "The car on the right",
+      "explanation": "At an intersection with no stop or yield signs, the car on the right has the right of way."
+    },
+    {
+      "id": 8,
+      "question": "When merging onto a freeway, who has the right of way?",
+      "options": [
+        "The merging vehicle",
+        "The vehicle on the freeway",
+        "Both have equal right of way",
+        "The faster vehicle"
+      ],
+      "correctAnswer": "The vehicle on the freeway",
+      "explanation": "When merging onto a freeway, the vehicle already on the freeway has the right of way."
+    },
+    {
+      "id": 9,
+      "question": "What is the maximum speed limit on most Michigan freeways?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "70 mph",
+        "75 mph"
+      ],
+      "correctAnswer": "70 mph",
+      "explanation": "The maximum speed limit on most Michigan freeways is 70 mph."
+    },
+    {
+      "id": 10,
+      "question": "When should you use your headlights?",
+      "options": [
+        "Between sunset and sunrise",
+        "When visibility is poor",
+        "In construction zones",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "You should use your headlights between sunset and sunrise, when visibility is poor, and in construction zones."
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Driving courses for teens and adults. Behind-the-wheel training, road test prep, and defensive driving at First Step Driving Academy.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Driving Courses | First Step Driving Academy</title>
+  <style>
+    /* Courses Page Specific Styles */
+    .page-hero {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+      padding: 10rem 0 5rem;
+      text-align: center;
+      color: var(--white);
+    }
+    
+    .page-hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .page-hero p {
+      font-size: 1.25rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .course-detail {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      padding: 4rem 0;
+      border-bottom: 1px solid var(--gray-200);
+    }
+    
+    .course-detail:nth-child(even) {
+      direction: rtl;
+    }
+    
+    .course-detail:nth-child(even) > * {
+      direction: ltr;
+    }
+    
+    .course-detail:last-child {
+      border-bottom: none;
+    }
+    
+    .course-image img {
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      width: 100%;
+    }
+    
+    .course-content h2 {
+      font-size: 2rem;
+      color: var(--gray-900);
+      margin-bottom: 1rem;
+    }
+    
+    .course-content > p {
+      color: var(--gray-600);
+      margin-bottom: 1.5rem;
+      font-size: 1.0625rem;
+    }
+    
+    .course-features {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+    
+    .course-feature {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--gray-700);
+    }
+    
+    .course-feature-icon {
+      width: 24px;
+      height: 24px;
+      background: var(--success);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      font-size: 0.75rem;
+      flex-shrink: 0;
+    }
+    
+    .course-price {
+      background: var(--gray-50);
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      margin-bottom: 1.5rem;
+    }
+    
+    .course-price .price {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--primary);
+    }
+    
+    .course-price .price-note {
+      color: var(--gray-600);
+      font-size: 0.875rem;
+    }
+    
+    .pricing-section {
+      background: var(--gray-50);
+    }
+    
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    
+    .pricing-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+      text-align: center;
+      box-shadow: var(--shadow);
+      position: relative;
+      transition: var(--transition);
+    }
+    
+    .pricing-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-xl);
+    }
+    
+    .pricing-card.popular {
+      border: 2px solid var(--accent);
+    }
+    
+    .pricing-card.popular::before {
+      content: 'Most Popular';
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--accent);
+      color: var(--white);
+      padding: 0.25rem 1rem;
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    
+    .pricing-card h3 {
+      font-size: 1.5rem;
+      color: var(--gray-900);
+      margin-bottom: 0.5rem;
+    }
+    
+    .pricing-card .price {
+      font-size: 3rem;
+      font-weight: 800;
+      color: var(--primary);
+      margin: 1rem 0;
+    }
+    
+    .pricing-card .price span {
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--gray-600);
+    }
+    
+    .pricing-features {
+      list-style: none;
+      text-align: left;
+      margin: 2rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    
+    .pricing-features li {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--gray-700);
+    }
+    
+    .pricing-features li::before {
+      content: '✓';
+      color: var(--success);
+      font-weight: 700;
+    }
+    
+    .faq-section {
+      background: var(--white);
+    }
+    
+    .faq-grid {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .faq-item {
+      border-bottom: 1px solid var(--gray-200);
+      padding: 1.5rem 0;
+    }
+    
+    .faq-question {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--gray-900);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .faq-question::after {
+      content: '+';
+      font-size: 1.5rem;
+      color: var(--primary);
+    }
+    
+    .faq-answer {
+      color: var(--gray-600);
+      margin-top: 1rem;
+      line-height: 1.7;
+    }
+    
+    @media (max-width: 768px) {
+      .course-detail {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      
+      .course-detail:nth-child(even) {
+        direction: ltr;
+      }
+      
+      .page-hero h1 {
+        font-size: 2.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="First Step Driving Academy">
+        <span class="logo-text">First Step Driving</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="coach.html">Practice Tests</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="contact.html" class="nav-cta">Book Now</a></li>
+      </ul>
+      <div class="mobile-toggle" onclick="toggleNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Our Driving Courses</h1>
+      <p>Comprehensive programs designed to make you a safe, confident driver. Choose the course that fits your needs.</p>
+    </div>
+  </section>
+
+  <!-- Course Details -->
+  <section class="section">
+    <div class="container">
+      
+      <!-- Teen Driver Education -->
+      <div class="course-detail">
+        <div class="course-image">
+          <img src="images/cache_15147619.jpg" alt="Teen Driver Education">
+        </div>
+        <div class="course-content">
+          <h2>🎓 Teen Driver Education</h2>
+          <p>Our comprehensive teen driver education program meets all state requirements and prepares young drivers for a lifetime of safe driving. Combines classroom instruction with hands-on behind-the-wheel training.</p>
+          
+          <div class="course-features">
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>30 hours of classroom instruction</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>6 hours of behind-the-wheel training</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>State-approved curriculum</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Certificate of completion included</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Parent orientation session</span>
+            </div>
+          </div>
+          
+          <div class="course-price">
+            <span class="price">$399</span>
+            <span class="price-note"> / Complete Program</span>
+          </div>
+          
+          <a href="contact.html" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+      
+      <!-- Adult Driving Lessons -->
+      <div class="course-detail">
+        <div class="course-image">
+          <img src="images/cache_15147688.jpg" alt="Adult Driving Lessons">
+        </div>
+        <div class="course-content">
+          <h2>🚗 Adult Driving Lessons</h2>
+          <p>Never learned to drive? New to the country? Our adult program is designed for first-time drivers of any age. Flexible scheduling fits around your work and family commitments.</p>
+          
+          <div class="course-features">
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>One-on-one instruction</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Flexible scheduling (evenings & weekends)</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Pick-up and drop-off available</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Patient, understanding instructors</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Learn at your own pace</span>
+            </div>
+          </div>
+          
+          <div class="course-price">
+            <span class="price">$75</span>
+            <span class="price-note"> / per hour</span>
+          </div>
+          
+          <a href="contact.html" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+      
+      <!-- Road Test Preparation -->
+      <div class="course-detail">
+        <div class="course-image">
+          <img src="images/cache_15147627.jpg" alt="Road Test Preparation">
+        </div>
+        <div class="course-content">
+          <h2>📋 Road Test Preparation</h2>
+          <p>Ready for your road test? Our intensive prep course focuses specifically on the skills and maneuvers you'll be tested on. Practice on the actual test routes used by examiners.</p>
+          
+          <div class="course-features">
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Practice on real test routes</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Mock road tests with feedback</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Parallel parking mastery</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>3-point turn & backing techniques</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Use our car for your test (additional fee)</span>
+            </div>
+          </div>
+          
+          <div class="course-price">
+            <span class="price">$199</span>
+            <span class="price-note"> / 3-Hour Package</span>
+          </div>
+          
+          <a href="contact.html" class="btn btn-primary">Book Prep Course</a>
+        </div>
+      </div>
+      
+      <!-- Defensive Driving -->
+      <div class="course-detail">
+        <div class="course-image">
+          <img src="images/cache_15148223.jpg" alt="Defensive Driving">
+        </div>
+        <div class="course-content">
+          <h2>⚡ Defensive Driving</h2>
+          <p>Learn advanced techniques to anticipate and avoid road hazards. This course may qualify you for insurance discounts and can help reduce points on your license in some cases.</p>
+          
+          <div class="course-features">
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>6-hour state-approved course</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Hazard recognition training</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Insurance discount certificate</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Online or in-person options</span>
+            </div>
+            <div class="course-feature">
+              <span class="course-feature-icon">✓</span>
+              <span>Point reduction eligible</span>
+            </div>
+          </div>
+          
+          <div class="course-price">
+            <span class="price">$49</span>
+            <span class="price-note"> / Online Course</span>
+          </div>
+          
+          <a href="contact.html" class="btn btn-primary">Register Now</a>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Pricing Packages -->
+  <section class="pricing-section section">
+    <div class="container">
+      <h2 class="section-title">Behind-the-Wheel Packages</h2>
+      <p class="section-subtitle">Save money with our multi-lesson packages. The more hours you book, the more you save.</p>
+      
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <h3>Starter</h3>
+          <div class="price">$75<span>/hr</span></div>
+          <p>Perfect for trying us out</p>
+          <ul class="pricing-features">
+            <li>1 hour of instruction</li>
+            <li>Pick-up & drop-off</li>
+            <li>Dual-control vehicle</li>
+            <li>Certified instructor</li>
+          </ul>
+          <a href="contact.html" class="btn btn-secondary">Book Now</a>
+        </div>
+        
+        <div class="pricing-card popular">
+          <h3>Standard</h3>
+          <div class="price">$199<span>/3 hrs</span></div>
+          <p>Our most popular package</p>
+          <ul class="pricing-features">
+            <li>3 hours of instruction</li>
+            <li>Pick-up & drop-off</li>
+            <li>Dual-control vehicle</li>
+            <li>Certified instructor</li>
+            <li>Progress tracking</li>
+            <li>Save $26</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Book Now</a>
+        </div>
+        
+        <div class="pricing-card">
+          <h3>Complete</h3>
+          <div class="price">$349<span>/6 hrs</span></div>
+          <p>Best value for new drivers</p>
+          <ul class="pricing-features">
+            <li>6 hours of instruction</li>
+            <li>Pick-up & drop-off</li>
+            <li>Dual-control vehicle</li>
+            <li>Certified instructor</li>
+            <li>Progress tracking</li>
+            <li>Road test prep included</li>
+            <li>Save $101</li>
+          </ul>
+          <a href="contact.html" class="btn btn-secondary">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section section">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-subtitle">Have questions? We've got answers.</p>
+      
+      <div class="faq-grid">
+        <div class="faq-item">
+          <div class="faq-question">How old do I need to be to take driving lessons?</div>
+          <div class="faq-answer">For our teen program, students must be at least 15 years old with a valid learner's permit. Adult lessons are available for anyone 18 and older. Some states allow younger students with parental consent—contact us for details.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">Do you provide the car for lessons?</div>
+          <div class="faq-answer">Yes! All lessons are conducted in our modern, dual-control vehicles. These cars have an extra brake pedal on the instructor's side for maximum safety. You can also use our car for your road test for an additional fee.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">How many lessons will I need?</div>
+          <div class="faq-answer">This varies by individual. Complete beginners typically need 6-10 hours of instruction. Those with some experience may need less. We'll assess your skill level and recommend the right package for you.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">Do you pick up for lessons?</div>
+          <div class="faq-answer">Absolutely! We offer free pick-up and drop-off within our service area. We can pick you up from home, school, or work—whatever is most convenient for your schedule.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">What if I need to cancel or reschedule?</div>
+          <div class="faq-answer">We understand that plans change. We ask for at least 24 hours notice for cancellations or rescheduling. Cancellations with less than 24 hours notice may be subject to a fee.</div>
+        </div>
+        
+        <div class="faq-item">
+          <div class="faq-question">Are your instructors certified?</div>
+          <div class="faq-answer">Yes, all our instructors are state-certified and have undergone extensive background checks. They receive ongoing training to stay current with the latest teaching methods and traffic laws.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta section">
+    <div class="container">
+      <h2>Ready to Get Behind the Wheel?</h2>
+      <p>Call us today or fill out our quick form to get started.</p>
+      <div class="cta-phone">
+        <a href="tel:+15551234567">(555) 123-4567</a>
+      </div>
+      <a href="contact.html" class="btn btn-white">Schedule Your First Lesson</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="images/logo.jpg" alt="First Step Driving Academy" style="height: 50px; filter: brightness(0) invert(1);">
+          </a>
+          <p>First Step Driving Academy has been helping students become safe, confident drivers for over 20 years.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="index.html#locations">Locations</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Programs</h4>
+          <ul class="footer-links">
+            <li><a href="courses.html">Teen Driver Ed</a></li>
+            <li><a href="courses.html">Adult Lessons</a></li>
+            <li><a href="courses.html">Road Test Prep</a></li>
+            <li><a href="courses.html">Defensive Driving</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <span>📍</span>
+            <span>123 Main Street<br>Anytown, ST 12345</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>📞</span>
+            <span>(555) 123-4567</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>✉️</span>
+            <span>info@firststepdriving.com</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 First Step Driving School. All rights reserved. | <a href="https://pitchmarketing.agency" target="_blank" style="color: #3b82f6; text-decoration: none;">Pitch Marketing Agency</a></p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>

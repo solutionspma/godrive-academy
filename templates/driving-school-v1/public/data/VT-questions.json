@@ -1,0 +1,128 @@
+{
+  "state": "Vermont",
+  "stateCode": "VT",
+  "generatedAt": "2026-01-03T01:05:31.027Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a red octagonal sign mean?",
+      "options": [
+        "Yield",
+        "Stop",
+        "No U-turn",
+        "Do not enter"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red octagonal sign is universally used for stop."
+    },
+    {
+      "id": 2,
+      "question": "What does a yellow diamond sign indicate?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Warning",
+        "Regulatory"
+      ],
+      "correctAnswer": "Warning",
+      "explanation": "A yellow diamond sign is used for warning drivers of upcoming road conditions and hazards."
+    },
+    {
+      "id": 3,
+      "question": "What does a green traffic light mean?",
+      "options": [
+        "Stop",
+        "Proceed",
+        "Prepare to stop",
+        "Yield"
+      ],
+      "correctAnswer": "Proceed",
+      "explanation": "A green traffic light means the driver can proceed if the way is clear."
+    },
+    {
+      "id": 4,
+      "question": "What does a solid yellow line on your side of the road mean?",
+      "options": [
+        "You may pass",
+        "You may not pass",
+        "End of no passing zone",
+        "Reserved lane"
+      ],
+      "correctAnswer": "You may not pass",
+      "explanation": "A solid yellow line on your side of the road means no passing is allowed."
+    },
+    {
+      "id": 5,
+      "question": "What is the speed limit in a residential area unless otherwise posted?",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit in a residential area in Vermont is typically 25 mph unless otherwise posted."
+    },
+    {
+      "id": 6,
+      "question": "Who has the right-of-way at an intersection where both vehicles arrive at the same time and there are no traffic signals or signs?",
+      "options": [
+        "The vehicle on the right",
+        "The vehicle on the left",
+        "The vehicle that arrived first",
+        "Both vehicles"
+      ],
+      "correctAnswer": "The vehicle on the right",
+      "explanation": "At an intersection with no signals or signs, the vehicle on the right has the right-of-way."
+    },
+    {
+      "id": 7,
+      "question": "Where is it illegal to park?",
+      "options": [
+        "In a marked parking space",
+        "On the shoulder of the road",
+        "In front of a driveway",
+        "In a parking lot"
+      ],
+      "correctAnswer": "In front of a driveway",
+      "explanation": "Parking in front of a driveway blocks access and is illegal."
+    },
+    {
+      "id": 8,
+      "question": "What should you do if your vehicle starts to hydroplane?",
+      "options": [
+        "Increase speed",
+        "Steer towards the skid",
+        "Ease off the gas pedal",
+        "Apply brakes hard"
+      ],
+      "correctAnswer": "Ease off the gas pedal",
+      "explanation": "If your vehicle starts to hydroplane, ease off the gas pedal and steer in the direction you want to go."
+    },
+    {
+      "id": 9,
+      "question": "At what distance should you signal before making a turn?",
+      "options": [
+        "100 feet",
+        "200 feet",
+        "300 feet",
+        "500 feet"
+      ],
+      "correctAnswer": "100 feet",
+      "explanation": "Vermont law requires drivers to signal at least 100 feet before making a turn."
+    },
+    {
+      "id": 10,
+      "question": "In what situations is it illegal to use high beam headlights?",
+      "options": [
+        "When following another vehicle",
+        "On unlit roads",
+        "When visibility is poor",
+        "In foggy conditions"
+      ],
+      "correctAnswer": "When following another vehicle",
+      "explanation": "High beam headlights can blind drivers of vehicles ahead of you and should not be used when following another vehicle."
+    }
+  ]
+}

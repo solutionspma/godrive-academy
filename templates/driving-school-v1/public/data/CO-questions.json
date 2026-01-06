@@ -1,0 +1,128 @@
+{
+  "state": "Colorado",
+  "stateCode": "CO",
+  "generatedAt": "2026-01-03T00:38:45.034Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a flashing yellow light signal mean?",
+      "options": [
+        "Stop",
+        "Proceed with caution",
+        "Do not enter",
+        "Road work ahead"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow light indicates that you should slow down and proceed with caution."
+    },
+    {
+      "id": 2,
+      "question": "When are you allowed to pass a school bus?",
+      "options": [
+        "When its red lights are flashing",
+        "When it's stationary",
+        "When it's moving",
+        "None of the above"
+      ],
+      "correctAnswer": "None of the above",
+      "explanation": "It's illegal to pass a school bus that is stopped to load or unload children."
+    },
+    {
+      "id": 3,
+      "question": "What does a 'NO U TURN' sign indicate?",
+      "options": [
+        "You cannot make a U-turn",
+        "U-turns are allowed",
+        "Only right turns are allowed",
+        "Only left turns are allowed"
+      ],
+      "correctAnswer": "You cannot make a U-turn",
+      "explanation": "A 'NO U TURN' sign means that U-turns are prohibited in that area."
+    },
+    {
+      "id": 4,
+      "question": "At an intersection with a stop sign, who has the right of way?",
+      "options": [
+        "The car that arrived first",
+        "The car on the left",
+        "The car on the right",
+        "The car that is turning"
+      ],
+      "correctAnswer": "The car on the right",
+      "explanation": "At an intersection with stop signs in all directions, the car on the right goes first if two vehicles arrive at the same time."
+    },
+    {
+      "id": 5,
+      "question": "What is the maximum speed limit on most interstate highways in Colorado?",
+      "options": [
+        "65 mph",
+        "70 mph",
+        "75 mph",
+        "80 mph"
+      ],
+      "correctAnswer": "75 mph",
+      "explanation": "In Colorado, the maximum speed limit on most interstate highways is 75 mph, unless otherwise posted."
+    },
+    {
+      "id": 6,
+      "question": "When parallel parking, how far should you be from the curb?",
+      "options": [
+        "6-18 inches",
+        "1-2 feet",
+        "2-3 feet",
+        "3-4 feet"
+      ],
+      "correctAnswer": "6-18 inches",
+      "explanation": "When parallel parking, your vehicle should be within 6-18 inches from the curb."
+    },
+    {
+      "id": 7,
+      "question": "What should you do if your vehicle starts to hydroplane?",
+      "options": [
+        "Accelerate",
+        "Brake hard",
+        "Steer in the direction you want to go",
+        "Ease off the accelerator"
+      ],
+      "correctAnswer": "Ease off the accelerator",
+      "explanation": "If your vehicle starts to hydroplane, you should ease off the accelerator and steer in the direction you want to go."
+    },
+    {
+      "id": 8,
+      "question": "What does a yellow diamond-shaped sign with a black image of a truck on a hill indicate?",
+      "options": [
+        "Steep hill ahead",
+        "Truck stop ahead",
+        "Trucks not allowed",
+        "Loading zone for trucks"
+      ],
+      "correctAnswer": "Steep hill ahead",
+      "explanation": "A yellow diamond-shaped sign with a black image of a truck on a hill indicates that there is a steep hill ahead."
+    },
+    {
+      "id": 9,
+      "question": "Who has the right of way when two vehicles reach an uncontrolled intersection at the same time?",
+      "options": [
+        "The vehicle on the left",
+        "The vehicle on the right",
+        "The vehicle that is moving faster",
+        "Both vehicles"
+      ],
+      "correctAnswer": "The vehicle on the right",
+      "explanation": "At an uncontrolled intersection, the vehicle on the right has the right of way."
+    },
+    {
+      "id": 10,
+      "question": "What is the maximum speed limit in a residential area if not posted?",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "Unless otherwise posted, the maximum speed limit in a residential area in Colorado is 25 mph."
+    }
+  ]
+}

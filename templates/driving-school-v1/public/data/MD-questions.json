@@ -1,0 +1,308 @@
+{
+  "state": "Maryland",
+  "stateCode": "MD",
+  "generatedAt": "2026-01-03T00:48:34.042Z",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a flashing yellow traffic signal mean?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Proceed with caution",
+        "Do not enter"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow light indicates that you should slow down and proceed with caution."
+    },
+    {
+      "id": 2,
+      "question": "What does a red arrow signal mean?",
+      "options": [
+        "You can proceed in the direction of the arrow after a complete stop",
+        "You must not proceed in the direction of the arrow",
+        "You must proceed in the direction of the arrow",
+        "You can proceed in the direction of the arrow if the intersection is clear"
+      ],
+      "correctAnswer": "You must not proceed in the direction of the arrow",
+      "explanation": "A red arrow signal means you must not proceed in the direction of the arrow."
+    },
+    {
+      "id": 3,
+      "question": "What does a green arrow signal mean?",
+      "options": [
+        "You can proceed in the direction of the arrow",
+        "You must stop",
+        "You must yield",
+        "You cannot proceed in the direction of the arrow"
+      ],
+      "correctAnswer": "You can proceed in the direction of the arrow",
+      "explanation": "A green arrow signal means you can proceed in the direction of the arrow."
+    },
+    {
+      "id": 4,
+      "question": "What does a 'No U-Turn' sign indicate?",
+      "options": [
+        "You can make a U-turn",
+        "You cannot make a U-turn",
+        "You must yield before making a U-turn",
+        "You must stop before making a U-turn"
+      ],
+      "correctAnswer": "You cannot make a U-turn",
+      "explanation": "A 'No U-Turn' sign indicates that U-turns are not permitted."
+    },
+    {
+      "id": 5,
+      "question": "What does a 'Slippery When Wet' sign indicate?",
+      "options": [
+        "The road is always slippery",
+        "The road is only slippery when it rains",
+        "The road may be slippery when it is wet",
+        "There is a wet floor ahead"
+      ],
+      "correctAnswer": "The road may be slippery when it is wet",
+      "explanation": "The 'Slippery When Wet' sign indicates that the road may be slippery under wet conditions."
+    },
+    {
+      "id": 6,
+      "question": "What does a 'One Way' sign indicate?",
+      "options": [
+        "You can only drive in one direction on this road",
+        "There is only one lane on this road",
+        "You can only make one turn on this road",
+        "There is only one exit on this road"
+      ],
+      "correctAnswer": "You can only drive in one direction on this road",
+      "explanation": "A 'One Way' sign indicates that traffic is only allowed to move in the direction of the arrow."
+    },
+    {
+      "id": 7,
+      "question": "What does a yellow diamond-shaped sign mean?",
+      "options": [
+        "It is a stop sign",
+        "It is a yield sign",
+        "It is a warning sign",
+        "It is a regulatory sign"
+      ],
+      "correctAnswer": "It is a warning sign",
+      "explanation": "A yellow diamond-shaped sign is used for warnings about road conditions and hazards."
+    },
+    {
+      "id": 8,
+      "question": "What does a rectangular white sign mean?",
+      "options": [
+        "It is a stop sign",
+        "It is a yield sign",
+        "It is a warning sign",
+        "It is a regulatory sign"
+      ],
+      "correctAnswer": "It is a regulatory sign",
+      "explanation": "A rectangular white sign is used to communicate laws you must obey such as speed limits, turn restrictions, etc."
+    },
+    {
+      "id": 9,
+      "question": "What does a circular sign mean?",
+      "options": [
+        "It is a stop sign",
+        "It is a yield sign",
+        "It is a warning sign",
+        "It is a railroad advance warning sign"
+      ],
+      "correctAnswer": "It is a railroad advance warning sign",
+      "explanation": "A circular sign is used to warn of an upcoming railroad crossing."
+    },
+    {
+      "id": 10,
+      "question": "What does a 'Do Not Pass' sign indicate?",
+      "options": [
+        "You cannot pass other vehicles",
+        "You can pass other vehicles",
+        "You can pass other vehicles only if it is safe",
+        "You can pass other vehicles only during daylight hours"
+      ],
+      "correctAnswer": "You cannot pass other vehicles",
+      "explanation": "A 'Do Not Pass' sign indicates that you cannot pass other vehicles on that section of road."
+    },
+    {
+      "id": 11,
+      "question": "Who has the right of way at an intersection where two drivers arrive at the same time at a right angle?",
+      "options": [
+        "The driver on the right",
+        "The driver on the left",
+        "The driver who is traveling on a bigger road",
+        "The driver who is traveling faster"
+      ],
+      "correctAnswer": "The driver on the right",
+      "explanation": "At intersections where two drivers arrive at the same time at a right angle, the driver on the right has the right of way."
+    },
+    {
+      "id": 12,
+      "question": "Who has the right of way at an intersection with no signs or signals?",
+      "options": [
+        "The driver who arrives first",
+        "The driver on the right",
+        "The driver on the left",
+        "The driver who is traveling faster"
+      ],
+      "correctAnswer": "The driver on the right",
+      "explanation": "At an intersection with no signs or signals, the driver on the right has the right of way."
+    },
+    {
+      "id": 13,
+      "question": "Who has the right of way when a vehicle approaches a pedestrian at an intersection with no crosswalks?",
+      "options": [
+        "The pedestrian",
+        "The vehicle",
+        "Neither",
+        "Whichever one is faster"
+      ],
+      "correctAnswer": "The pedestrian",
+      "explanation": "Pedestrians have the right of way at all intersections and driveways."
+    },
+    {
+      "id": 14,
+      "question": "Who has the right of way when two vehicles approach an intersection not controlled by signs/signals, at the same time, on different streets?",
+      "options": [
+        "The vehicle on the left",
+        "The vehicle on the right",
+        "The vehicle that is moving faster",
+        "The vehicle that is bigger"
+      ],
+      "correctAnswer": "The vehicle on the right",
+      "explanation": "The vehicle on the right has the right of way."
+    },
+    {
+      "id": 15,
+      "question": "Who has the right of way in a roundabout?",
+      "options": [
+        "Vehicles entering the roundabout",
+        "Vehicles already in the roundabout",
+        "Vehicles exiting the roundabout",
+        "Vehicles with the right blinker on"
+      ],
+      "correctAnswer": "Vehicles already in the roundabout",
+      "explanation": "Vehicles already in the roundabout have the right of way."
+    },
+    {
+      "id": 16,
+      "question": "What is the speed limit on a highway in Maryland unless otherwise posted?",
+      "options": [
+        "50 mph",
+        "55 mph",
+        "65 mph",
+        "75 mph"
+      ],
+      "correctAnswer": "55 mph",
+      "explanation": "Unless otherwise posted, the maximum speed limit is 55 mph on all highways."
+    },
+    {
+      "id": 17,
+      "question": "What is the speed limit in a school zone in Maryland?",
+      "options": [
+        "15 mph",
+        "20 mph",
+        "25 mph",
+        "30 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit in a school zone is 25 mph."
+    },
+    {
+      "id": 18,
+      "question": "What is the speed limit in a residential area in Maryland?",
+      "options": [
+        "15 mph",
+        "25 mph",
+        "35 mph",
+        "45 mph"
+      ],
+      "correctAnswer": "25 mph",
+      "explanation": "The speed limit in a residential area is typically 25 mph unless otherwise posted."
+    },
+    {
+      "id": 19,
+      "question": "What is the maximum speed limit on interstate highways in Maryland?",
+      "options": [
+        "55 mph",
+        "65 mph",
+        "70 mph",
+        "75 mph"
+      ],
+      "correctAnswer": "70 mph",
+      "explanation": "The maximum speed limit on interstate highways in Maryland is 70 mph."
+    },
+    {
+      "id": 20,
+      "question": "When you park uphill with a curb, which way should your wheels be turned?",
+      "options": [
+        "Towards the curb",
+        "Away from the curb",
+        "Parallel to the curb",
+        "It doesn't matter"
+      ],
+      "correctAnswer": "Away from the curb",
+      "explanation": "When parking uphill with a curb, the wheels should be turned away from the curb."
+    },
+    {
+      "id": 21,
+      "question": "When you park downhill, which way should your wheels be turned?",
+      "options": [
+        "Towards the curb",
+        "Away from the curb",
+        "Parallel to the curb",
+        "It doesn't matter"
+      ],
+      "correctAnswer": "Towards the curb",
+      "explanation": "When parking downhill, the wheels should be turned towards the curb."
+    },
+    {
+      "id": 22,
+      "question": "What is the minimum safe following distance under ideal conditions?",
+      "options": [
+        "1 second",
+        "2 seconds",
+        "3 seconds",
+        "4 seconds"
+      ],
+      "correctAnswer": "3 seconds",
+      "explanation": "The minimum safe following distance under ideal conditions is 3 seconds."
+    },
+    {
+      "id": 23,
+      "question": "What should you do when driving in fog?",
+      "options": [
+        "Turn on high beam headlights",
+        "Turn on low beam headlights",
+        "Turn off headlights",
+        "Drive with the flow of traffic"
+      ],
+      "correctAnswer": "Turn on low beam headlights",
+      "explanation": "When driving in fog, use your low beam headlights to increase visibility."
+    },
+    {
+      "id": 24,
+      "question": "What should you do when driving in heavy rain or snow?",
+      "options": [
+        "Increase your speed",
+        "Decrease your speed",
+        "Turn off headlights",
+        "Turn on high beam headlights"
+      ],
+      "correctAnswer": "Decrease your speed",
+      "explanation": "In heavy rain or snow, decrease your speed to prevent skidding."
+    },
+    {
+      "id": 25,
+      "question": "What should you do if a tire blows out while you're driving?",
+      "options": [
+        "Brake hard",
+        "Steer hard",
+        "Ease off the gas pedal",
+        "Accelerate"
+      ],
+      "correctAnswer": "Ease off the gas pedal",
+      "explanation": "If a tire blows out, you should ease off the gas pedal and keep the vehicle steady until you can safely pull off the road."
+    }
+  ]
+}

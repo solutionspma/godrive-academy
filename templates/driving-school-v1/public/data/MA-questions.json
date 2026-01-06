@@ -1,0 +1,128 @@
+{
+  "state": "Massachusetts",
+  "stateCode": "MA",
+  "generatedAt": "2026-01-03T00:49:03.019Z",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does a yellow diamond-shaped sign mean?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Warning",
+        "No passing"
+      ],
+      "correctAnswer": "Warning",
+      "explanation": "Yellow diamond-shaped signs signify warning or caution."
+    },
+    {
+      "id": 2,
+      "question": "If you see a sign with an orange background and black letters, what does it signify?",
+      "options": [
+        "Stop sign",
+        "Construction zone",
+        "School Zone",
+        "Hospital ahead"
+      ],
+      "correctAnswer": "Construction zone",
+      "explanation": "Orange signs with black letters are used for temporary traffic control around construction zones."
+    },
+    {
+      "id": 3,
+      "question": "What does a red octagonal sign mean?",
+      "options": [
+        "Yield",
+        "Stop",
+        "Do not enter",
+        "Wrong way"
+      ],
+      "correctAnswer": "Stop",
+      "explanation": "A red octagonal sign is universally used for stop."
+    },
+    {
+      "id": 4,
+      "question": "What does a flashing red traffic light mean?",
+      "options": [
+        "Proceed with caution",
+        "Stop and yield the right-of-way",
+        "Traffic signal not working",
+        "Road closed ahead"
+      ],
+      "correctAnswer": "Stop and yield the right-of-way",
+      "explanation": "A flashing red light means the same as a stop sign."
+    },
+    {
+      "id": 5,
+      "question": "What does a flashing yellow traffic light mean?",
+      "options": [
+        "Stop",
+        "Yield",
+        "Proceed with caution",
+        "Road closed ahead"
+      ],
+      "correctAnswer": "Proceed with caution",
+      "explanation": "A flashing yellow light indicates that drivers should slow down and proceed with caution."
+    },
+    {
+      "id": 6,
+      "question": "What should you do when you approach a yield sign?",
+      "options": [
+        "Stop completely",
+        "Speed up",
+        "Slow down and prepare to stop if necessary",
+        "Do not slow down"
+      ],
+      "correctAnswer": "Slow down and prepare to stop if necessary",
+      "explanation": "At a yield sign, drivers should slow down and prepare to stop if necessary."
+    },
+    {
+      "id": 7,
+      "question": "Who has the right-of-way at an intersection with no crosswalks?",
+      "options": [
+        "Pedestrians",
+        "Vehicles turning right",
+        "Vehicles turning left",
+        "Vehicles going straight"
+      ],
+      "correctAnswer": "Pedestrians",
+      "explanation": "At an intersection with no crosswalks, pedestrians have the right-of-way."
+    },
+    {
+      "id": 8,
+      "question": "Who has the right-of-way when two cars arrive at an intersection at the same time?",
+      "options": [
+        "The car on the left",
+        "The car on the right",
+        "The car that is turning",
+        "Both cars"
+      ],
+      "correctAnswer": "The car on the right",
+      "explanation": "At an intersection, the car on the right has the right-of-way."
+    },
+    {
+      "id": 9,
+      "question": "What is the speed limit in a school zone when children are present?",
+      "options": [
+        "20 mph",
+        "25 mph",
+        "30 mph",
+        "35 mph"
+      ],
+      "correctAnswer": "20 mph",
+      "explanation": "The speed limit in a school zone when children are present is 20 mph."
+    },
+    {
+      "id": 10,
+      "question": "What should you do if an emergency vehicle is approaching with its lights flashing?",
+      "options": [
+        "Pull over to the right and stop",
+        "Speed up and get out of the way",
+        "Continue driving at the same speed",
+        "Pull over to the left and stop"
+      ],
+      "correctAnswer": "Pull over to the right and stop",
+      "explanation": "You should always pull over to the right and stop when an emergency vehicle is approaching with its lights flashing."
+    }
+  ]
+}
