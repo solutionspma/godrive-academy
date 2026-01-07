@@ -1,5 +1,5 @@
 [build]
-  publish = "templates/driving-school-v1/public"
+  publish = "public"
   command = "echo 'No build step needed - static site'"
 
 [[redirects]]

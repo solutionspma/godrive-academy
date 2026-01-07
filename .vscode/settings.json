@@ -1,0 +1,28 @@
+{
+  "editor.inlineSuggest.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  "github.copilot.enable": {
+    "*": false,
+    "html": false,
+    "javascript": false,
+    "typescript": false
+  },
+
+  "chat.commandCenter.enabled": false,
+  "chat.inline.enabled": false,
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/templates": false,
+    "**/docs": true,
+    "**/*.md": true
+  },
+
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": false,
+    "other": false
+  }
+}
