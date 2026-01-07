@@ -121,32 +121,26 @@ async function loadQuiz(state) {
       questionCount = 50
     }
     
-    // Try to fetch pre-generated JSON first
+    // Load questions from /data/tests/ directory (all 50 states available)
     let data = null
     try {
-      const res = await fetch(`/data/${state}-questions.json`)
+      const res = await fetch(`data/tests/${state}.json`)
       if (res.ok) {
         data = await res.json()
-        console.log(`✅ Loaded static questions for ${state}`)
+        console.log(`✅ Loaded ${data.questions.length} questions for ${state}`)
+      } else {
+        throw new Error(`Failed to load test file for ${state}`)
       }
     } catch (fetchError) {
-      console.log(`⚠️ No static data for ${state}, falling back to OpenAI...`)
+      console.error(`❌ Error loading test data for ${state}:`, fetchError)
+      alert(`Sorry, we couldn't load the test for ${state}. Please try a different state.`)
+      return
     }
     
-    // Fallback to OpenAI if no static file exists
+    // Validate data structure
     if (!data || !data.questions || data.questions.length === 0) {
-      console.log(`🤖 Generating questions for ${state} using OpenAI...`)
-      const generatedQuestions = await getQuestionsForState(state, questionCount)
-      
-      if (!generatedQuestions || generatedQuestions.length === 0) {
-        throw new Error(`Failed to generate questions for ${state}`)
-      }
-      
-      data = {
-        state: generatedQuestions.state || state,
-        stateCode: state,
-        questions: generatedQuestions.questions || generatedQuestions
-      }
+      alert(`No questions available for ${state}. Please try a different state.`)
+      return
     }
     
     // Shuffle and select questions
