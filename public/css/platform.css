@@ -908,6 +908,11 @@ body {
   .pricing-card.featured {
     transform: none;
   }
+
+  .footer-content {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 2rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -950,6 +955,15 @@ body {
   
   .features-grid {
     grid-template-columns: 1fr;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
   }
   
   .demo-container {
