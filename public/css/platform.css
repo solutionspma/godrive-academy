@@ -822,7 +822,7 @@ body {
 
 .footer-content {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 3rem;
   margin-bottom: 3rem;
 }
@@ -835,6 +835,22 @@ body {
 .footer-brand p {
   line-height: 1.7;
   color: var(--gray-500);
+  margin-bottom: 1.5rem;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.footer-social a {
+  font-size: 1.5rem;
+  transition: transform 0.2s;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
 }
 
 .footer-col h4 {
